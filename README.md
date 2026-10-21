@@ -44,10 +44,10 @@
 
 <br/><br/>
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=sanjayadanushka712&bg_color=060b12&color=00ffa3&line=00e5ff&point=ff2d55&area=true&hide_border=true" alt="activity graph"/>
+<img width="95%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sanjayadanushka712&theme=github_dark" alt="profile details"/>
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=sanjayadanushka712&show_icons=true&hide_border=true&theme=github_dark&include_all_commits=true&count_private=true&title_color=00ffa3&icon_color=00e5ff&text_color=9fb4c7" alt="stats"/>
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjayadanushka712&layout=compact&hide_border=true&theme=github_dark&langs_count=8&title_color=00ffa3&text_color=9fb4c7" alt="top langs"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=sanjayadanushka712&show_icons=true&hide_border=true&theme=github_dark&include_all_commits=true&count_private=true&title_color=00ffa3&icon_color=00e5ff&text_color=9fb4c7&bg_color=060b12&border_color=12222f" alt="stats"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjayadanushka712&layout=compact&hide_border=true&theme=github_dark&langs_count=8&title_color=00ffa3&text_color=9fb4c7&bg_color=060b12&border_color=12222f" alt="top langs"/>
 
 <br/>
 
