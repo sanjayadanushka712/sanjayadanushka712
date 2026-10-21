@@ -6,6 +6,10 @@
 <a href="https://github.com/sanjayadanushka712/Ghost-Night"><img src="https://img.shields.io/badge/Ghost_Night-repo-060b12?style=for-the-badge&logo=torproject&logoColor=00ffa3" alt="Ghost Night"/></a>
 <img src="https://komarev.com/ghpvc/?username=sanjayadanushka712&style=for-the-badge&color=00ffa3&labelColor=060b12" alt="Profile views"/>
 
+<br/>
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00FFA3&center=true&vCenter=true&width=620&lines=Software+Engineer+%7C+DevOps;Cloud-Native+%7C+Automation+%7C+Security;Open-Source+Contributor;Building+sustainable+systems" alt="Typing SVG" /></a>
+
 </div>
 
 <img src="./assets/divider.svg" width="100%" />
