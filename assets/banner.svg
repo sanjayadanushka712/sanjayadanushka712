@@ -175,8 +175,8 @@
         <animate attributeName="width" values="700;636;700" dur="5s" repeatCount="indefinite"/>
       </rect>
       <text x="432" y="228" font-size="24" font-weight="700" fill="url(#neon)">DEV WHALE 🐋</text>
-      <text x="622" y="228" font-size="17" fill="#9fb4c7">Open-Source Contributor · OSDC</text>
-      <text x="432" y="258" font-size="16" fill="#7f95a8">Aviatrix ACE Multicloud Network Associate · Badulla, Sri Lanka</text>
+      <text x="622" y="228" font-size="17" fill="#9fb4c7">Open-Source Contributor</text>
+      <text x="432" y="258" font-size="16" fill="#7f95a8">Aviatrix ACE Multicloud Network Associate · location withheld</text>
     </g>
 
     <!-- STATUS + ENCRYPTION GLYPHS -->
