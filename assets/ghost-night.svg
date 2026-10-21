@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200" width="560" height="200" role="img" aria-label="Ghost Night">
+  <defs>
+    <linearGradient id="gnbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050a12"/><stop offset="100%" stop-color="#0a1f18"/>
+    </linearGradient>
+    <linearGradient id="gnn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2bff88"/><stop offset="100%" stop-color="#36c8ff"/>
+    </linearGradient>
+    <filter id="gng" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="560" height="200" rx="14" fill="url(#gnbg)" stroke="#1c3a2e"/>
+  <!-- moon -->
+  <circle cx="486" cy="54" r="26" fill="#0e2a20" stroke="url(#gnn)" stroke-width="2" filter="url(#gng)"/>
+  <circle cx="496" cy="48" r="24" fill="url(#gnbg)"/>
+  <!-- ghost -->
+  <g transform="translate(50,70)" filter="url(#gng)">
+    <path d="M0 40 C0 12 20 0 44 0 C68 0 88 12 88 40 L88 84 C80 78 74 84 66 78 C58 72 52 78 44 78 C36 78 30 72 22 78 C14 84 8 78 0 84 Z"
+          fill="#0a1f18" stroke="url(#gnn)" stroke-width="3"/>
+    <circle cx="32" cy="38" r="6" fill="#2bff88" filter="url(#gng)"/>
+    <circle cx="58" cy="38" r="6" fill="#2bff88" filter="url(#gng)"/>
+  </g>
+  <g font-family="'JetBrains Mono',monospace">
+    <text x="168" y="70" font-size="30" font-weight="800" fill="#eafff4" filter="url(#gng)">Ghost Night</text>
+    <text x="170" y="100" font-size="14" fill="#8fd9bd">Browser Fingerprint &amp; Identity</text>
+    <text x="170" y="120" font-size="14" fill="#8fd9bd">Rotation Toolkit</text>
+    <g font-size="12">
+      <rect x="170" y="140" rx="10" width="70" height="24" fill="#0e2a20" stroke="#1c5a42"/>
+      <text x="184" y="157" fill="#39ffd0">Python</text>
+      <rect x="248" y="140" rx="10" width="92" height="24" fill="#0e2a20" stroke="#1c5a42"/>
+      <text x="262" y="157" fill="#39ffd0">Playwright</text>
+      <rect x="348" y="140" rx="10" width="46" height="24" fill="#0e2a20" stroke="#1c5a42"/>
+      <text x="362" y="157" fill="#39ffd0">Tor</text>
+    </g>
+  </g>
+</svg>
