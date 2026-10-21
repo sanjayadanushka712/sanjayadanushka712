@@ -1,25 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 44" width="1200" height="44" role="img" aria-label="divider">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 56" width="1200" height="56" role="img" aria-label="divider">
   <defs>
-    <linearGradient id="d" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2bff88" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#2bff88" stop-opacity="1"/>
-      <stop offset="70%" stop-color="#36c8ff" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#36c8ff" stop-opacity="0"/>
+    <linearGradient id="dline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ffa3" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#00ffa3" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#00e5ff" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#ff2d55" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ff2d55" stop-opacity="0"/>
     </linearGradient>
-    <filter id="dg" x="-20%" y="-400%" width="140%" height="900%">
+    <filter id="dglow" x="-20%" y="-400%" width="140%" height="900%">
       <feGaussianBlur stdDeviation="3" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <line x1="0" y1="22" x2="1200" y2="22" stroke="url(#d)" stroke-width="2" filter="url(#dg)"/>
-  <!-- swimming fish -->
-  <g filter="url(#dg)">
-    <g transform="translate(0,22)">
-      <animateTransform attributeName="transform" type="translate"
-        values="-60,22; 1260,22" dur="11s" repeatCount="indefinite"/>
-      <path d="M0 0 C8 -8 26 -10 38 0 C26 10 8 8 0 0 Z" fill="#0a1f18" stroke="#2bff88" stroke-width="1.6"/>
-      <path d="M0 0 C-6 -6 -14 -8 -20 -8 C-14 -2 -14 2 -20 8 C-14 8 -6 6 0 0 Z" fill="#0a1f18" stroke="#39ffd0" stroke-width="1.4"/>
-      <circle cx="31" cy="-2" r="1.6" fill="#39ffd0"/>
-    </g>
+  <line x1="0" y1="28" x2="1200" y2="28" stroke="url(#dline)" stroke-width="2" filter="url(#dglow)"/>
+  <g font-family="'JetBrains Mono',monospace" fill="#00e5ff" opacity="0.6">
+    <text x="12" y="34">[</text>
+    <text x="1176" y="34">]</text>
+  </g>
+  <!-- traveling packet -->
+  <g filter="url(#dglow)">
+    <rect x="-30" y="24" width="26" height="8" rx="2" fill="#00ffa3">
+      <animate attributeName="x" values="-30;1204" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g stroke="#ff2d55" stroke-width="1.5" opacity="0.5">
+    <text x="600" y="20" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#ff2d55">// SIGNAL</text>
   </g>
 </svg>

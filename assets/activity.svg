@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 64" width="1200" height="64" role="img" aria-label="// SIGNALS">
+  <defs>
+    <linearGradient id="hg03" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff2d55" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#ff2d55" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ff2d55" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="hf03" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="hgrid03" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#0e1c28" stroke-width="1" opacity="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="64" fill="#060b12"/>
+  <rect width="1200" height="64" fill="url(#hgrid03)"/>
+  <rect x="0" y="0" width="1200" height="64" fill="url(#hg03)" opacity="0.25"/>
+  <rect x="0" y="62" width="1200" height="2" fill="url(#hg03)" filter="url(#hf03)"/>
+  <g filter="url(#hf03)">
+    <rect x="10" y="20" width="5" height="24" fill="#ff2d55"/>
+    <rect x="22" y="20" width="5" height="24" fill="#ff2d55" opacity="0.5"/>
+  </g>
+  <text x="44" y="40" font-family="'JetBrains Mono',monospace" font-size="22" font-weight="800"
+        fill="#f1f7ff" letter-spacing="3">// SIGNALS</text>
+  <text x="1190" y="40" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="13"
+        fill="#ff2d55" letter-spacing="2">SYS::03</text>
+  <g stroke="#ff2d55" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M0 0 L18 0 M0 0 L0 18"/>
+    <path d="M1200 64 L1182 64 M1200 64 L1200 46"/>
+  </g>
+</svg>
