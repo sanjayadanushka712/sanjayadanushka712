@@ -2,36 +2,65 @@
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#000000"/>
-      <stop offset="100%" stop-color="#050a07"/>
+      <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
     <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00ff88"/>
-      <stop offset="100%" stop-color="#00ff9d"/>
+      <stop offset="0%" stop-color="#00ff41"/>
+      <stop offset="100%" stop-color="#00ff41"/>
     </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="3" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#102015" stroke-width="1" opacity="0.4"/>
-    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
-  <rect width="1200" height="280" fill="url(#bg)"/>
-  <rect width="1200" height="280" fill="url(#grid)"/>
+  <rect width="1200" height="280" fill="#000000"/>
 
-  <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
-    <text x="80" y="110" font-size="16" fill="#00ff88" opacity="0.8">[ root@devwhale ~ ]$</text>
-    <text x="80" y="150" font-size="58" font-weight="700" fill="#f8fff9" filter="url(#glow)">SANJAYA DANUSHKA</text>
-    <rect x="82" y="164" width="680" height="3" rx="1.5" fill="url(#bar)">
-      <animate attributeName="width" values="680;620;680" dur="6s" repeatCount="indefinite"/>
+  <!-- matrix rain -->
+  <g fill="#00ff41" font-family="'JetBrains Mono',monospace" font-size="14" opacity="0.18">
+    <text x="20" y="-10">01<animate attributeName="y" values="-10;290" dur="4s" repeatCount="indefinite"/></text>
+    <text x="40" y="-30">10<animate attributeName="y" values="-30;290" dur="5s" repeatCount="indefinite"/></text>
+    <text x="60" y="-20">11<animate attributeName="y" values="-20;290" dur="3.8s" repeatCount="indefinite"/></text>
+    <text x="80" y="-40">00<animate attributeName="y" values="-40;290" dur="4.6s" repeatCount="indefinite"/></text>
+    <text x="110" y="-15">01<animate attributeName="y" values="-15;290" dur="4.2s" repeatCount="indefinite"/></text>
+    <text x="140" y="-35">10<animate attributeName="y" values="-35;290" dur="5.4s" repeatCount="indefinite"/></text>
+    <text x="170" y="-25">11<animate attributeName="y" values="-25;290" dur="3.6s" repeatCount="indefinite"/></text>
+    <text x="200" y="-45">01<animate attributeName="y" values="-45;290" dur="4.8s" repeatCount="indefinite"/></text>
+    <text x="230" y="-20">10<animate attributeName="y" values="-20;290" dur="3.9s" repeatCount="indefinite"/></text>
+    <text x="260" y="-38">00<animate attributeName="y" values="-38;290" dur="4.4s" repeatCount="indefinite"/></text>
+    <text x="290" y="-16">11<animate attributeName="y" values="-16;290" dur="5.2s" repeatCount="indefinite"/></text>
+    <text x="320" y="-42">01<animate attributeName="y" values="-42;290" dur="4.1s" repeatCount="indefinite"/></text>
+    <text x="360" y="-28">10<animate attributeName="y" values="-28;290" dur="3.7s" repeatCount="indefinite"/></text>
+    <text x="400" y="-36">11<animate attributeName="y" values="-36;290" dur="4.9s" repeatCount="indefinite"/></text>
+    <text x="450" y="-22">00<animate attributeName="y" values="-22;290" dur="5.1s" repeatCount="indefinite"/></text>
+    <text x="500" y="-44">01<animate attributeName="y" values="-44;290" dur="4.3s" repeatCount="indefinite"/></text>
+  </g>
+
+  <!-- scanlines -->
+  <g opacity="0.08">
+    <rect y="0" width="1200" height="2" fill="#00ff41">
+      <animate attributeName="y" values="0;280" dur="8s" repeatCount="indefinite"/>
     </rect>
-    <text x="82" y="200" font-size="20" fill="#00ff88">Software Engineer • DevOps</text>
-    <text x="82" y="232" font-size="16" fill="#6f9f7a">> building clean, minimal &amp; efficient systems</text>
-    <rect x="480" y="218" width="9" height="16" fill="#00ff88">
+  </g>
+
+  <!-- main content -->
+  <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+    <text x="70" y="90" font-size="14" fill="#00ff41" opacity="0.7">&gt; whoami</text>
+    <text x="70" y="140" font-size="64" font-weight="700" fill="#00ff41" filter="url(#glow)">SANJAYA DANUSHKA</text>
+    <text x="72" y="150" font-size="64" font-weight="700" fill="#00ff41" filter="url(#soft)" opacity="0.25">SANJAYA DANUSHKA</text>
+    <rect x="74" y="156" width="760" height="2" rx="1" fill="url(#bar)">
+      <animate attributeName="width" values="760;700;760" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <text x="74" y="190" font-size="18" fill="#00ff41">[ SOFTWARE ENGINEER | DEVOPS ]</text>
+    <text x="74" y="220" font-size="15" fill="#00ff41" opacity="0.6">&gt; system.init --minimal --secure</text>
+    <rect x="520" y="206" width="9" height="16" fill="#00ff41">
       <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
     </rect>
   </g>
 
-  <rect x="0" y="0" width="1200" height="280" fill="none" stroke="#00ff88" stroke-width="1.5" opacity="0.25"/>
+  <rect x="0" y="0" width="1200" height="280" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.3"/>
 </svg>
