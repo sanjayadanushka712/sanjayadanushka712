@@ -88,12 +88,12 @@
     <text x="58" y="498" font-size="13" letter-spacing="9" fill="#00ff88" filter="url(#glow)">// TECH STACK</text>
   </g>
 
-  <g font-family="'JetBrains Mono',monospace" font-size="11" letter-spacing="2" fill="#4f8f72">
-    <text x="58" y="540">LANGUAGES</text>
-    <text x="58" y="596">FRONTEND</text>
-    <text x="58" y="652">UI / UX</text>
-    <text x="58" y="708">PLATFORM &amp; DEVOPS</text>
-    <text x="58" y="764">DATABASES &amp; TOOLS</text>
+  <g font-family="'JetBrains Mono',monospace" font-size="11" fill="#4f8f72">
+    <text x="58" y="540">LANGS</text>
+    <text x="58" y="596">FRONT</text>
+    <text x="58" y="652">UI/UX</text>
+    <text x="58" y="708">PLATFORM</text>
+    <text x="58" y="764">DB/TOOLS</text>
   </g>
 
   <g stroke="#00ff88" stroke-width="1" opacity="0.09">
