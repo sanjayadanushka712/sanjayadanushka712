@@ -6,7 +6,7 @@
 
 <br/>
 
-<img src="./assets/profile-arch.svg" width="100%" alt="Sanjaya Danushka — Software Engineer, DevOps" />
+<img src="./assets/profile-pro.svg" width="100%" alt="Sanjaya Danushka — Software Engineer, DevOps" />
 
 <br/>
 
