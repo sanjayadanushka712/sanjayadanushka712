@@ -1,37 +1,21 @@
-```bash
-┌──[sanjaya@devwhale]─[~]
-└──╼ $ neofetch --minimal
+```text
+[devwhale@arch ~]$ whoami
+Sanjaya Danushka
 
-OS        : Arch Linux x86_64
-Kernel    : Hardened
-Shell     : zsh
-WM        : Wayland
-Theme     : GreenPhosphor
-Terminal  : kitty
+[devwhale@arch ~]$ role --show
+Software Engineer | DevOps
 
-┌──[sanjaya@devwhale]─[~]
-└──╼ $ cat /etc/profile.d/identity
-NAME      : Sanjaya Danushka
-ROLE      : Software Engineer | DevOps
-FOCUS     : Linux • Automation • Security • Open-Source
-MOTTO     : "Build. Break. Learn. Repeat."
+[devwhale@arch ~]$ focus --list
+Linux • Automation • Security • Open-Source
 
-┌──[sanjaya@devwhale]─[~]
-└──╼ $ find ~/stack -type f | head -7
-~/stack/python
-~/stack/bash
-~/stack/javascript
-~/stack/typescript
-~/stack/linux
-~/stack/docker
-~/stack/git
+[devwhale@arch ~]$ stack --minimal
+Python • Bash • JavaScript • TypeScript • Docker • Git
 
-┌──[sanjaya@devwhale]─[~]
-└──╼ $ ls ~/projects/
-[DIR] Ghost-Night  ->  https://github.com/sanjayadanushka712/Ghost-Night
+[devwhale@arch ~]$ projects --ls
+→ Ghost-Night :: https://github.com/sanjayadanushka712/Ghost-Night
 
-┌──[sanjaya@devwhale]─[~]
-└──╼ $ _
+[devwhale@arch ~]$ echo $STATUS
+building clean & efficient systems
 ```
 
 <picture>
