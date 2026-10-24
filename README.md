@@ -7,14 +7,7 @@
 <br/>
 
 <div align="center">
-
-```diff
-+ [IDENTITY]     Sanjaya Danushka
-+ [ROLE]         Software Engineer • DevOps
-+ [FOCUS]        Linux • Automation • Security • Open-Source
-+ [PHILOSOPHY]   Build clean, secure & minimal systems
-```
-
+  <img src="https://readme-typing-svg.demolab.com?font=Exo+2&weight=500&size=15&duration=2800&pause=2000&color=00FF88&center=true&vCenter=true&width=500&lines=Software+Engineer+%7C+DevOps;Linux+%7C+Automation+%7C+Security+%7C+Open-Source" />
 </div>
 
 <br/>
@@ -26,12 +19,12 @@
 <br/>
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sanjayadanushka712&show_icons=true&hide_border=true&bg_color=000000&title_color=00ff88&icon_color=00ff88&text_color=c9f7e5&ring_color=00ff88" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjayadanushka712&layout=compact&hide_border=true&bg_color=000000&title_color=00ff88&text_color=c9f7e5" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sanjayadanushka712&show_icons=true&hide_border=true&bg_color=000000&title_color=00ff88&icon_color=00ff88&text_color=00ffcc&border_radius=0&ring_color=00ff88" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjayadanushka712&layout=compact&hide_border=true&bg_color=000000&title_color=00ff88&text_color=00ffcc&border_radius=0" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="95%" />
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="96%" />
 </div>
