@@ -12,11 +12,7 @@
 
 <br/>
 
-<code>// STACK</code>
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=python,java,go,ts,bash,qt,linux,docker,kubernetes,jenkins,postgres,mongodb&theme=dark&perline=12" />
+<img src="./assets/stack.svg" width="96%" />
 
 <br/>
 
