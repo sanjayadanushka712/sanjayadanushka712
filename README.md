@@ -1,22 +1,37 @@
 ```bash
-sanjaya@devwhale:~$ ./boot --minimal
-[ OK ] Initializing environment...
-[ OK ] Identity loaded
-[ OK ] Stack verified
+┌──[sanjaya@devwhale]─[~]
+└──╼ $ neofetch --minimal
 
-sanjaya@devwhale:~$ cat /proc/profile
-user     : Sanjaya Danushka
-role     : Software Engineer | DevOps
-focus    : Linux • Automation • Security • Open-Source
-status   : Building clean & efficient systems
+OS        : Arch Linux x86_64
+Kernel    : Hardened
+Shell     : zsh
+WM        : Wayland
+Theme     : GreenPhosphor
+Terminal  : kitty
 
-sanjaya@devwhale:~$ ls -1 ~/toolkit
-python  bash  javascript  typescript  linux  docker  git
+┌──[sanjaya@devwhale]─[~]
+└──╼ $ cat /etc/profile.d/identity
+NAME      : Sanjaya Danushka
+ROLE      : Software Engineer | DevOps
+FOCUS     : Linux • Automation • Security • Open-Source
+MOTTO     : "Build. Break. Learn. Repeat."
 
-sanjaya@devwhale:~$ ls -1 ~/projects
-Ghost-Night -> https://github.com/sanjayadanushka712/Ghost-Night
+┌──[sanjaya@devwhale]─[~]
+└──╼ $ find ~/stack -type f | head -7
+~/stack/python
+~/stack/bash
+~/stack/javascript
+~/stack/typescript
+~/stack/linux
+~/stack/docker
+~/stack/git
 
-sanjaya@devwhale:~$ _
+┌──[sanjaya@devwhale]─[~]
+└──╼ $ ls ~/projects/
+[DIR] Ghost-Night  ->  https://github.com/sanjayadanushka712/Ghost-Night
+
+┌──[sanjaya@devwhale]─[~]
+└──╼ $ _
 ```
 
 <picture>
