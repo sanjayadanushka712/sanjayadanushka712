@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 390" width="1100" height="390" role="img" aria-label="Tech stack">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 310" width="1100" height="310" role="img" aria-label="Tech stack">
   <defs>
     <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#000000"/>
@@ -16,12 +16,12 @@
     </filter>
   </defs>
 
-  <rect x="1" y="1" width="1098" height="388" rx="10" fill="url(#sbg)"/>
-  <rect x="1" y="1" width="1098" height="388" rx="10" fill="none" stroke="#00ff88" stroke-width="1" opacity="0.22"/>
+  <rect x="1" y="1" width="1098" height="308" rx="10" fill="url(#sbg)"/>
+  <rect x="1" y="1" width="1098" height="308" rx="10" fill="none" stroke="#00ff88" stroke-width="1" opacity="0.22"/>
 
   <g stroke="#00ff88" stroke-width="2" fill="none" opacity="0.75">
     <path d="M12 40 L12 12 L40 12"/>
-    <path d="M1088 350 L1088 378 L1060 378"/>
+    <path d="M1088 270 L1088 298 L1060 298"/>
   </g>
 
   <rect x="40" y="34" width="300" height="1" fill="url(#sline)"/>
@@ -29,123 +29,80 @@
   <text x="40" y="76" font-family="'Exo 2',sans-serif" font-size="14" letter-spacing="6"
         fill="#00ff88" filter="url(#sglow)">// STACK</text>
 
-  <!-- labels -->
+  <!-- row labels -->
   <g font-family="'JetBrains Mono',monospace" font-size="12" letter-spacing="2" fill="#4f8f72">
     <text x="40" y="117">CORE</text>
-    <text x="40" y="167">FRONTEND</text>
-    <text x="40" y="217">UI/UX</text>
-    <text x="40" y="267">PLATFORM</text>
-    <text x="40" y="317">DATA</text>
+    <text x="40" y="167">UI</text>
+    <text x="40" y="217">PLATFORM</text>
+    <text x="40" y="267">DATA</text>
   </g>
 
-  <!-- separators -->
+  <!-- row separators -->
   <g stroke="#00ff88" stroke-width="1" opacity="0.07">
     <line x1="40" y1="134" x2="1060" y2="134"/>
     <line x1="40" y1="184" x2="1060" y2="184"/>
     <line x1="40" y1="234" x2="1060" y2="234"/>
-    <line x1="40" y1="284" x2="1060" y2="284"/>
   </g>
 
   <g font-family="'JetBrains Mono',monospace" font-size="13" fill="#c9f7e5">
-    <!-- CORE -->
-    <rect x="160" y="98" width="78" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="172" cy="112" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/></circle>
-    <text x="182" y="117">Python</text>
+    <!-- CORE row -->
+    <g>
+      <rect x="150" y="98" width="78" height="28" rx="4" fill="#02120a" stroke="#00ff88" stroke-width="1" opacity="0.9"/>
+      <circle cx="162" cy="112" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/></circle>
+      <text x="172" y="117">Python</text>
 
-    <rect x="250" y="98" width="62" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="262" cy="112" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.4;1" dur="2.8s" repeatCount="indefinite"/></circle>
-    <text x="272" y="117">Java</text>
+      <rect x="240" y="98" width="62" height="28" rx="4" fill="#02120a" stroke="#00ff88" stroke-width="1" opacity="0.9"/>
+      <circle cx="252" cy="112" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.4;1" dur="2.8s" repeatCount="indefinite"/></circle>
+      <text x="262" y="117">Java</text>
 
-    <rect x="324" y="98" width="45" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="336" cy="112" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.1s" repeatCount="indefinite"/></circle>
-    <text x="346" y="117">Go</text>
+      <rect x="314" y="98" width="45" height="28" rx="4" fill="#02120a" stroke="#00ff88" stroke-width="1" opacity="0.9"/>
+      <circle cx="326" cy="112" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.1s" repeatCount="indefinite"/></circle>
+      <text x="336" y="117">Go</text>
 
-    <rect x="381" y="98" width="112" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="393" cy="112" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/></circle>
-    <text x="403" y="117">TypeScript</text>
+      <rect x="371" y="98" width="112" height="28" rx="4" fill="#02120a" stroke="#00ff88" stroke-width="1" opacity="0.9"/>
+      <circle cx="383" cy="112" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/></circle>
+      <text x="393" y="117">TypeScript</text>
 
-    <rect x="505" y="98" width="62" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="517" cy="112" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.35;1" dur="3.3s" repeatCount="indefinite"/></circle>
-    <text x="527" y="117">Bash</text>
+      <rect x="495" y="98" width="62" height="28" rx="4" fill="#02120a" stroke="#00ff88" stroke-width="1" opacity="0.9"/>
+      <circle cx="507" cy="112" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.35;1" dur="3.3s" repeatCount="indefinite"/></circle>
+      <text x="517" y="117">Bash</text>
+    </g>
 
-    <!-- FRONTEND -->
-    <rect x="160" y="148" width="78" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="172" cy="162" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.7s" repeatCount="indefinite"/></circle>
-    <text x="182" y="167">Next.js</text>
+    <!-- UI row -->
+    <g>
+      <rect x="150" y="148" width="62" height="28" rx="4" fill="#02120a" stroke="#00ff88" stroke-width="1" opacity="0.9"/>
+      <circle cx="162" cy="162" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.9s" repeatCount="indefinite"/></circle>
+      <text x="172" y="167">PyQt</text>
+    </g>
 
-    <rect x="250" y="148" width="62" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="262" cy="162" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.9s" repeatCount="indefinite"/></circle>
-    <text x="272" y="167">Dart</text>
+    <!-- PLATFORM row -->
+    <g>
+      <rect x="150" y="198" width="70" height="28" rx="4" fill="#02120a" stroke="#00ff88" stroke-width="1" opacity="0.9"/>
+      <circle cx="162" cy="212" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/></circle>
+      <text x="172" y="217">Linux</text>
 
-    <rect x="324" y="148" width="70" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="336" cy="162" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.4;1" dur="3.0s" repeatCount="indefinite"/></circle>
-    <text x="346" y="167">Flutter</text>
+      <rect x="232" y="198" width="78" height="28" rx="4" fill="#02120a" stroke="#00ff88" stroke-width="1" opacity="0.9"/>
+      <circle cx="244" cy="212" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/></circle>
+      <text x="254" y="217">Docker</text>
 
-    <!-- UI/UX -->
-    <rect x="160" y="198" width="62" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="172" cy="212" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite"/></circle>
-    <text x="182" y="217">PyQt</text>
+      <rect x="322" y="198" width="112" height="28" rx="4" fill="#02120a" stroke="#00ff88" stroke-width="1" opacity="0.9"/>
+      <circle cx="334" cy="212" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.7s" repeatCount="indefinite"/></circle>
+      <text x="344" y="217">Kubernetes</text>
 
-    <rect x="234" y="198" width="112" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="246" cy="212" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.1s" repeatCount="indefinite"/></circle>
-    <text x="256" y="217">shadcn/ui</text>
+      <rect x="446" y="198" width="87" height="28" rx="4" fill="#02120a" stroke="#00ff88" stroke-width="1" opacity="0.9"/>
+      <circle cx="458" cy="212" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" repeatCount="indefinite"/></circle>
+      <text x="468" y="217">Jenkins</text>
+    </g>
 
-    <rect x="358" y="198" width="70" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="370" cy="212" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.4;1" dur="2.7s" repeatCount="indefinite"/></circle>
-    <text x="380" y="217">Figma</text>
+    <!-- DATA row -->
+    <g>
+      <rect x="150" y="248" width="112" height="28" rx="4" fill="#02120a" stroke="#00ff88" stroke-width="1" opacity="0.9"/>
+      <circle cx="162" cy="262" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.4;1" dur="2.8s" repeatCount="indefinite"/></circle>
+      <text x="172" y="267">PostgreSQL</text>
 
-    <!-- PLATFORM -->
-    <rect x="160" y="248" width="70" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="172" cy="262" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/></circle>
-    <text x="182" y="267">Linux</text>
-
-    <rect x="242" y="248" width="78" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="254" cy="262" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/></circle>
-    <text x="264" y="267">Docker</text>
-
-    <rect x="332" y="248" width="112" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="344" cy="262" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.7s" repeatCount="indefinite"/></circle>
-    <text x="354" y="267">Kubernetes</text>
-
-    <rect x="456" y="248" width="87" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="468" cy="262" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" repeatCount="indefinite"/></circle>
-    <text x="478" y="267">Jenkins</text>
-
-    <rect x="555" y="248" width="104" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="567" cy="262" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.4;1" dur="2.9s" repeatCount="indefinite"/></circle>
-    <text x="577" y="267">Terraform</text>
-
-    <rect x="671" y="248" width="53" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="683" cy="262" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.0s" repeatCount="indefinite"/></circle>
-    <text x="693" y="267">AWS</text>
-
-    <rect x="736" y="248" width="53" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="748" cy="262" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.1s" repeatCount="indefinite"/></circle>
-    <text x="758" y="267">GCP</text>
-
-    <rect x="801" y="248" width="62" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="813" cy="262" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.4;1" dur="2.8s" repeatCount="indefinite"/></circle>
-    <text x="823" y="267">Azure</text>
-
-    <!-- DATA -->
-    <rect x="160" y="298" width="112" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="172" cy="312" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.4;1" dur="2.8s" repeatCount="indefinite"/></circle>
-    <text x="182" y="317">PostgreSQL</text>
-
-    <rect x="284" y="298" width="87" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="296" cy="312" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/></circle>
-    <text x="306" y="317">MongoDB</text>
-
-    <rect x="383" y="298" width="87" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="395" cy="312" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.9s" repeatCount="indefinite"/></circle>
-    <text x="405" y="317">Supabase</text>
-
-    <rect x="482" y="298" width="87" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="494" cy="312" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.4;1" dur="3.0s" repeatCount="indefinite"/></circle>
-    <text x="504" y="317">Drizzle</text>
-
-    <rect x="581" y="298" width="78" height="28" rx="4" fill="#02120a" stroke="#00ff88"/>
-    <circle cx="593" cy="312" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite"/></circle>
-    <text x="603" y="317">Sentry</text>
+      <rect x="274" y="248" width="87" height="28" rx="4" fill="#02120a" stroke="#00ff88" stroke-width="1" opacity="0.9"/>
+      <circle cx="286" cy="262" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/></circle>
+      <text x="296" y="267">MongoDB</text>
+    </g>
   </g>
 </svg>
