@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="./assets/banner.svg" width="100%" />
+
+<img src="./assets/banner.svg" width="100%" />
+
 </div>
 
 <div align="center">
@@ -8,19 +10,16 @@
 
 <br/>
 
+<div align="center">
+
 ```text
-> whoami
-  Sanjaya Danushka
-
-> about
-  Focused on building secure, minimal and efficient systems.
-  Obsessed with Linux, automation and open-source.
-
-> links
-  GitHub   -> https://github.com/sanjayadanushka712
-  LinkedIn -> https://www.linkedin.com/in/sanjayadanushka712/
-  Ghost-Night -> https://github.com/sanjayadanushka712/Ghost-Night
+[ IDENT ]  Sanjaya Danushka
+[ FOCUS ]  Secure • Minimal • Efficient Systems
+[ DRIVE ]  Linux • Automation • Open-Source
+[ LINK  ]  github.com/sanjayadanushka712 | linkedin.com/in/sanjayadanushka712 | github.com/sanjayadanushka712/Ghost-Night
 ```
+
+</div>
 
 <br/>
 
