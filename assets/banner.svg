@@ -1,165 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Sanjaya Danushka — Dev Whale">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Sanjaya Danushka">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#04070c"/>
-      <stop offset="55%" stop-color="#070d16"/>
-      <stop offset="100%" stop-color="#0a0508"/>
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#050a07"/>
     </linearGradient>
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00ffa3"/>
-      <stop offset="55%" stop-color="#00e5ff"/>
-      <stop offset="100%" stop-color="#ff2d55"/>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="#00ff9d"/>
     </linearGradient>
-    <linearGradient id="danger" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ff2d55"/>
-      <stop offset="100%" stop-color="#ff7a18"/>
-    </linearGradient>
-    <linearGradient id="steel" x1="0.2" y1="0" x2="0.4" y2="1">
-      <stop offset="0%" stop-color="#16222f"/>
-      <stop offset="55%" stop-color="#0a121c"/>
-      <stop offset="100%" stop-color="#04070b"/>
-    </linearGradient>
-    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0d1622"/>
-      <stop offset="100%" stop-color="#050a10"/>
-    </linearGradient>
-    <radialGradient id="aura" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.22"/>
-      <stop offset="60%" stop-color="#00ffa3" stop-opacity="0.07"/>
-      <stop offset="100%" stop-color="#00ffa3" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="blood" cx="50%" cy="50%" r="55%">
-      <stop offset="0%" stop-color="#ff2d55" stop-opacity="0.20"/>
-      <stop offset="100%" stop-color="#ff2d55" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="softglow" x="-70%" y="-70%" width="240%" height="240%">
-      <feGaussianBlur stdDeviation="10" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="drop" x="-40%" y="-40%" width="180%" height="180%">
-      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.85"/>
-    </filter>
-    <clipPath id="clip"><rect width="1200" height="400"/></clipPath>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#102015" stroke-width="1" opacity="0.4"/>
+    </pattern>
   </defs>
 
-  <g clip-path="url(#clip)">
-    <!-- layered background -->
-    <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#grid)"/>
 
-    <!-- subtle diagonal light streaks -->
-    <g opacity="0.05" stroke="#00e5ff" stroke-width="1">
-      <line x1="-100" y1="420" x2="500" y2="-40"/>
-      <line x1="60" y1="440" x2="660" y2="-20"/>
-      <line x1="220" y1="460" x2="820" y2="0"/>
-    </g>
-
-    <!-- aura behind whale -->
-    <circle cx="270" cy="205" r="240" fill="url(#aura)"/>
-    <circle cx="980" cy="120" r="220" fill="url(#blood)"/>
-
-    <!-- thin horizon line -->
-    <line x1="0" y1="300" x2="1200" y2="300" stroke="url(#neon)" stroke-width="1" opacity="0.18"/>
-
-    <!-- ============ PREDATOR WHALE ============ -->
-    <g transform="translate(90,118)" filter="url(#drop)">
-      <g>
-        <animateTransform attributeName="transform" type="translate"
-          values="0,0; 6,-3; 0,0" dur="9s" repeatCount="indefinite"/>
-
-        <!-- inverse fins behind body -->
-        <path d="M120 108 L150 158 L196 112 Z" fill="#060b12" stroke="#00e5ff" stroke-width="1.6" opacity="0.85"/>
-        <path d="M300 96 L336 132 L300 116 Z" fill="#060b12" stroke="#00e5ff" stroke-width="1.6" opacity="0.85"/>
-
-        <!-- tail -->
-        <path d="M4 84 C-40 54 -74 40 -108 30 C-70 52 -46 70 -30 82
-                 C-50 84 -74 88 -104 96 C-70 92 -44 90 -28 88
-                 C-44 104 -72 122 -104 140 C-66 118 -40 100 -8 90 Z"
-              fill="url(#face)" stroke="#ff2d55" stroke-width="2">
-          <animateTransform attributeName="transform" type="rotate"
-            values="-3 4 86; 3 4 86; -3 4 86" dur="1.5s" repeatCount="indefinite"/>
-        </path>
-
-        <!-- dorsal fin -->
-        <path d="M150 26 L176 -30 L226 24 Z" fill="url(#face)" stroke="#00e5ff" stroke-width="2.2"/>
-
-        <!-- main body -->
-        <path d="M18 86 C30 46 78 20 150 16 C230 12 300 34 356 46
-                 C382 40 412 44 430 62 C412 70 396 78 384 86
-                 C372 118 330 146 250 156 C150 168 60 150 26 110 Z"
-              fill="url(#steel)" stroke="url(#neon)" stroke-width="2.6" filter="url(#softglow)"/>
-
-        <!-- belly sheen -->
-        <path d="M70 132 C130 156 240 156 320 128 C270 150 160 156 92 138 Z" fill="#00ffa3" opacity="0.10"/>
-
-        <!-- armor panel seams -->
-        <g stroke="#00e5ff" stroke-width="1" opacity="0.28" fill="none">
-          <path d="M96 60 L150 50 L210 62 L272 52 L330 62"/>
-          <path d="M92 104 L150 94 L214 106 L278 96 L336 104"/>
-        </g>
-
-        <!-- gill threat lines -->
-        <g stroke="#ff2d55" stroke-width="2" opacity="0.8">
-          <line x1="120" y1="54" x2="112" y2="118"/>
-          <line x1="140" y1="52" x2="132" y2="120"/>
-          <line x1="160" y1="50" x2="152" y2="120"/>
-        </g>
-
-        <!-- circuit veins -->
-        <g stroke="#00ffa3" stroke-width="1" opacity="0.55" fill="none">
-          <path d="M232 70 L272 70 L284 82 L322 82"/>
-          <path d="M206 108 L246 108 L258 96 L296 96"/>
-          <circle cx="272" cy="70" r="2.2" fill="#00ffa3"/>
-          <circle cx="246" cy="108" r="2.2" fill="#00ffa3"/>
-        </g>
-
-        <!-- jaw line -->
-        <path d="M300 100 C336 98 366 92 384 84" fill="none" stroke="#7f95a8" stroke-width="1.4" opacity="0.5"/>
-
-        <!-- predatory eye -->
-        <g transform="translate(360,74)">
-          <ellipse rx="20" ry="8" fill="#04070b" stroke="#ff2d55" stroke-width="2.2"/>
-          <circle cx="4" cy="0" r="4.5" fill="#ff2d55" filter="url(#glow)">
-            <animate attributeName="r" values="4.5;5.6;4.5" dur="1.9s" repeatCount="indefinite"/>
-          </circle>
-          <path d="M-22 -16 L22 -5" stroke="url(#neon)" stroke-width="3.2" stroke-linecap="round"/>
-        </g>
-      </g>
-    </g>
-
-    <!-- ============ TEXT ============ -->
-    <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
-      <text x="520" y="120" font-size="13" letter-spacing="7" fill="#00e5ff" opacity="0.9">// SOFTWARE ENGINEER</text>
-      <text x="516" y="182" font-size="72" font-weight="800" fill="#f4f9ff" filter="url(#glow)">SANJAYA</text>
-      <text x="516" y="252" font-size="72" font-weight="800" fill="#f4f9ff" filter="url(#glow)">DANUSHKA</text>
-      <rect x="520" y="272" width="560" height="5" rx="2.5" fill="url(#danger)">
-        <animate attributeName="width" values="560;508;560" dur="5s" repeatCount="indefinite"/>
-      </rect>
-      <text x="520" y="312" font-size="22" font-weight="700" fill="url(#neon)">DEV WHALE 🐋</text>
-      <text x="702" y="312" font-size="16" fill="#9fb4c7">Open-Source Contributor</text>
-      <text x="520" y="342" font-size="15" fill="#6f8296">Aviatrix ACE Multicloud Network Associate · location withheld</text>
-    </g>
-
-    <!-- status chip -->
-    <g font-family="'JetBrains Mono',monospace" font-size="13">
-      <rect x="520" y="358" width="118" height="24" rx="4" fill="#0a121c" stroke="#ff2d55"/>
-      <circle cx="536" cy="370" r="3.8" fill="#ff2d55">
-        <animate attributeName="opacity" values="1;0.15;1" dur="1.3s" repeatCount="indefinite"/>
-      </circle>
-      <text x="548" y="375" fill="#ff2d55">BUILDING</text>
-      <text x="652" y="375" fill="#5f7688">sustainable systems for others</text>
-    </g>
-
-    <!-- registered tick -->
-    <g stroke="#00ffa3" stroke-width="2" fill="none" opacity="0.7">
-      <path d="M24 24 L64 24 M24 24 L24 64"/>
-      <path d="M1176 376 L1136 376 M1176 376 L1176 336"/>
-    </g>
-    <text x="1176" y="30" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="11" fill="#00ffa3" opacity="0.5">SYS::OK</text>
+  <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+    <text x="80" y="110" font-size="16" fill="#00ff88" opacity="0.8">[ root@devwhale ~ ]$</text>
+    <text x="80" y="150" font-size="58" font-weight="700" fill="#f8fff9" filter="url(#glow)">SANJAYA DANUSHKA</text>
+    <rect x="82" y="164" width="680" height="3" rx="1.5" fill="url(#bar)">
+      <animate attributeName="width" values="680;620;680" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="82" y="200" font-size="20" fill="#00ff88">Software Engineer • DevOps</text>
+    <text x="82" y="232" font-size="16" fill="#6f9f7a">> building clean, minimal &amp; efficient systems</text>
+    <rect x="480" y="218" width="9" height="16" fill="#00ff88">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
-  <rect x="0" y="0" width="1200" height="400" fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.30"/>
+  <rect x="0" y="0" width="1200" height="280" fill="none" stroke="#00ff88" stroke-width="1.5" opacity="0.25"/>
 </svg>
