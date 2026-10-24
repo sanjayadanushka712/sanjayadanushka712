@@ -1,45 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 70" width="1200" height="70" role="img" aria-label="sanjaya@devwhale:~$">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="Sanjaya Danushka">
   <defs>
-    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#00ff41" stop-opacity="0.06"/>
-      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#020805"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#00ff88"/>
+      <stop offset="60%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="#00ffaa"/>
     </linearGradient>
     <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="2" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <rect width="1200" height="70" fill="#000000"/>
-
-  <!-- subtle CRT scanline -->
-  <rect width="1200" height="14" fill="url(#scan)">
-    <animate attributeName="y" values="-14;70" dur="6s" repeatCount="indefinite"/>
+  <rect width="1200" height="200" fill="url(#bg)"/>
+  
+  <!-- grid -->
+  <g stroke="#00ff88" stroke-width="1" opacity="0.06">
+    <line x1="0" y1="50" x2="1200" y2="50"/>
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="200" y1="0" x2="200" y2="200"/>
+    <line x1="1000" y1="0" x2="1000" y2="200"/>
+    <circle cx="200" cy="50" r="2" fill="#00ff88"/>
+    <circle cx="1000" cy="150" r="2" fill="#00ff88"/>
+  </g>
+  
+  <!-- animated line -->
+  <rect x="-600" y="100" width="600" height="1" fill="url(#line)">
+    <animate attributeName="x" values="-600;1800" dur="4s" repeatCount="indefinite"/>
   </rect>
-
-  <!-- faint grid -->
-  <g opacity="0.05" stroke="#00ff41" stroke-width="1">
-    <line x1="0" y1="10" x2="1200" y2="10"/>
-    <line x1="0" y1="60" x2="1200" y2="60"/>
+  
+  <!-- glow orb -->
+  <circle cx="600" cy="100" r="80" fill="#00ff88" opacity="0.04" filter="url(#soft)">
+    <animate attributeName="r" values="80;90;80" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- content -->
+  <g font-family="'Inter','Satoshi','Jost',sans-serif">
+    <text x="600" y="92" font-size="48" font-weight="700" text-anchor="middle" fill="url(#text)" filter="url(#glow)">SANJAYA DANUSHKA</text>
+    <text x="600" y="126" font-size="16" text-anchor="middle" fill="#9fffcc" letter-spacing="14" opacity="0.9">SOFTWARE ENGINEER • DEVOPS</text>
   </g>
-
-  <!-- terminal line -->
-  <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="14">
-    <text x="30" y="42" fill="#00ff41" filter="url(#glow)">sanjaya@devwhale:~$</text>
-    <text x="250" y="42" fill="#f5fff7">cat identity.txt</text>
-    <text x="420" y="42" fill="#00ff41" opacity="0.9">[</text>
-    <text x="435" y="42" fill="#00ff41" filter="url(#glow)">SANJAYA DANUSHKA</text>
-    <text x="625" y="42" fill="#9fffbb" opacity="0.8">|</text>
-    <text x="640" y="42" fill="#9fffbb" opacity="0.8">SOFTWARE ENGINEER • DEVOPS</text>
-    <text x="920" y="42" fill="#00ff41" opacity="0.9">]</text>
-    <rect x="940" y="30" width="8" height="14" fill="#00ff41">
-      <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
-    </rect>
+  
+  <!-- dots -->
+  <g fill="#00ff88">
+    <circle cx="600" cy="146" r="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="612" cy="146" r="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="588" cy="146" r="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
   </g>
-
-  <rect x="0" y="0" width="1200" height="70" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.18"/>
+  
+  <rect x="0" y="0" width="1200" height="200" fill="none" stroke="#00ff88" stroke-width="1" opacity="0.15"/>
 </svg>
