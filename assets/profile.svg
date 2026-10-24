@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720" role="img" aria-label="Sanjaya Danushka — profile">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="55%" stop-color="#010704"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#00ff88" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="#8affc1"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#00ff88" opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="718" rx="14" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="718" rx="14" fill="url(#dots)"/>
+  <rect x="1" y="1" width="1198" height="718" rx="14" fill="none" stroke="#00ff88" stroke-width="1" opacity="0.22"/>
+
+  <circle cx="600" cy="130" r="220" fill="url(#core)"/>
+
+  <g stroke="#00ff88" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M18 52 L18 18 L52 18"/>
+    <path d="M1182 668 L1182 702 L1148 702"/>
+  </g>
+
+  <!-- ================= HEADER ================= -->
+  <g font-family="'Exo 2','JetBrains Mono',system-ui,sans-serif">
+    <text x="56" y="64" font-size="13" letter-spacing="6" fill="#00ff88" opacity="0.8">// PROFILE</text>
+    <text x="56" y="128" font-size="46" font-weight="700" letter-spacing="3" fill="url(#nameGrad)" filter="url(#glow)">SANJAYA DANUSHKA</text>
+    <text x="58" y="162" font-size="15" letter-spacing="7" fill="#7fdcae">SOFTWARE ENGINEER &#8226; DEVOPS</text>
+  </g>
+
+  <rect x="56" y="192" width="1088" height="1" fill="url(#rule)"/>
+
+  <!-- ================= ABOUT ================= -->
+  <g font-family="'Exo 2','JetBrains Mono',system-ui,sans-serif">
+    <text x="56" y="228" font-size="13" letter-spacing="6" fill="#00ff88" filter="url(#glow)">// ABOUT</text>
+    <g font-size="17" fill="#c9f7e5">
+      <text x="56" y="264">Software engineer and DevOps practitioner focused on Linux, automation and security.</text>
+      <text x="56" y="292">I build secure, minimal systems and practical open-source tools — from browser</text>
+      <text x="56" y="320">identity tooling to cloud-native pipelines.</text>
+    </g>
+    <text x="56" y="356" font-size="15" font-style="italic" fill="#6fbf9a">Clean architecture, automation and observability beat clever code.</text>
+    <text x="1144" y="356" font-size="14" text-anchor="end" fill="#00ff88" opacity="0.85">— Sanjaya Danushka</text>
+  </g>
+
+  <rect x="56" y="386" width="1088" height="1" fill="url(#rule)"/>
+
+  <!-- ================= STACK ================= -->
+  <g font-family="'Exo 2','JetBrains Mono',system-ui,sans-serif">
+    <text x="56" y="422" font-size="13" letter-spacing="6" fill="#00ff88" filter="url(#glow)">// STACK</text>
+  </g>
+
+  <g font-family="'JetBrains Mono',monospace" font-size="12" letter-spacing="2" fill="#4f8f72">
+    <text x="56" y="463">CORE</text>
+    <text x="56" y="509">UI</text>
+    <text x="56" y="555">PLATFORM</text>
+    <text x="56" y="601">DATA</text>
+  </g>
+
+  <g stroke="#00ff88" stroke-width="1" opacity="0.07">
+    <line x1="56" y1="480" x2="1144" y2="480"/>
+    <line x1="56" y1="526" x2="1144" y2="526"/>
+    <line x1="56" y1="572" x2="1144" y2="572"/>
+  </g>
+
+  <g font-family="'JetBrains Mono',monospace" font-size="13" fill="#c9f7e5">
+    <!-- CORE -->
+    <rect x="170" y="444" width="78" height="28" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
+    <circle cx="182" cy="458" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/></circle>
+    <text x="192" y="463">Python</text>
+
+    <rect x="260" y="444" width="62" height="28" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
+    <circle cx="272" cy="458" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.4;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <text x="282" y="463">Java</text>
+
+    <rect x="334" y="444" width="45" height="28" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
+    <circle cx="346" cy="458" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.1s" repeatCount="indefinite"/></circle>
+    <text x="356" y="463">Go</text>
+
+    <rect x="391" y="444" width="112" height="28" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
+    <circle cx="403" cy="458" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/></circle>
+    <text x="413" y="463">TypeScript</text>
+
+    <rect x="515" y="444" width="62" height="28" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
+    <circle cx="527" cy="458" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.35;1" dur="3.3s" repeatCount="indefinite"/></circle>
+    <text x="537" y="463">Bash</text>
+
+    <!-- UI -->
+    <rect x="170" y="490" width="62" height="28" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
+    <circle cx="182" cy="504" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.9s" repeatCount="indefinite"/></circle>
+    <text x="192" y="509">PyQt</text>
+
+    <!-- PLATFORM -->
+    <rect x="170" y="536" width="70" height="28" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
+    <circle cx="182" cy="550" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/></circle>
+    <text x="192" y="555">Linux</text>
+
+    <rect x="252" y="536" width="78" height="28" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
+    <circle cx="264" cy="550" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/></circle>
+    <text x="274" y="555">Docker</text>
+
+    <rect x="342" y="536" width="112" height="28" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
+    <circle cx="354" cy="550" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.7s" repeatCount="indefinite"/></circle>
+    <text x="364" y="555">Kubernetes</text>
+
+    <rect x="466" y="536" width="87" height="28" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
+    <circle cx="478" cy="550" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" repeatCount="indefinite"/></circle>
+    <text x="488" y="555">Jenkins</text>
+
+    <!-- DATA -->
+    <rect x="170" y="582" width="112" height="28" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
+    <circle cx="182" cy="596" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="1;0.4;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <text x="192" y="601">PostgreSQL</text>
+
+    <rect x="294" y="582" width="87" height="28" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
+    <circle cx="306" cy="596" r="2.5" fill="#00ff88"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/></circle>
+    <text x="316" y="601">MongoDB</text>
+  </g>
+
+  <rect x="56" y="632" width="1088" height="1" fill="url(#rule)"/>
+
+  <!-- ================= FOOTER ================= -->
+  <g font-family="'JetBrains Mono',monospace" font-size="13">
+    <rect x="56" y="656" width="92" height="30" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
+    <circle cx="68" cy="671" r="2.5" fill="#00ff88"/>
+    <text x="78" y="676" fill="#c9f7e5">GitHub</text>
+
+    <rect x="160" y="656" width="104" height="30" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
+    <circle cx="172" cy="671" r="2.5" fill="#00ff88"/>
+    <text x="182" y="676" fill="#c9f7e5">LinkedIn</text>
+
+    <rect x="276" y="656" width="132" height="30" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
+    <circle cx="288" cy="671" r="2.5" fill="#00ff88"/>
+    <text x="298" y="676" fill="#c9f7e5">Ghost-Night</text>
+
+    <text x="1144" y="676" text-anchor="end" fill="#4f8f72" letter-spacing="3">// EOF</text>
+  </g>
+</svg>
