@@ -1,89 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Sanjaya Danushka">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="Sanjaya Danushka">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#000000"/>
-      <stop offset="60%" stop-color="#000a03"/>
       <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
-    <linearGradient id="text" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00ff41"/>
-      <stop offset="100%" stop-color="#00ff88"/>
-    </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
-      <stop offset="40%" stop-color="#00ff41" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="hardglow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="8" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="clip"><rect width="1200" height="320"/></clipPath>
   </defs>
 
-  <g clip-path="url(#clip)">
-    <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="200" fill="#000000"/>
 
-    <!-- matrix rain columns -->
-    <g fill="#00ff41" font-family="'JetBrains Mono',monospace" font-size="13" opacity="0.16">
-      <text x="25" y="-20">01<animate attributeName="y" values="-20;340" dur="4.2s" repeatCount="indefinite"/></text>
-      <text x="45" y="-40">10<animate attributeName="y" values="-40;340" dur="5.1s" repeatCount="indefinite"/></text>
-      <text x="65" y="-15">11<animate attributeName="y" values="-15;340" dur="3.9s" repeatCount="indefinite"/></text>
-      <text x="90" y="-35">00<animate attributeName="y" values="-35;340" dur="4.7s" repeatCount="indefinite"/></text>
-      <text x="115" y="-25">01<animate attributeName="y" values="-25;340" dur="5.3s" repeatCount="indefinite"/></text>
-      <text x="140" y="-45">10<animate attributeName="y" values="-45;340" dur="4.0s" repeatCount="indefinite"/></text>
-      <text x="165" y="-30">11<animate attributeName="y" values="-30;340" dur="4.9s" repeatCount="indefinite"/></text>
-      <text x="195" y="-18">00<animate attributeName="y" values="-18;340" dur="3.8s" repeatCount="indefinite"/></text>
-      <text x="230" y="-38">01<animate attributeName="y" values="-38;340" dur="5.4s" repeatCount="indefinite"/></text>
-      <text x="265" y="-24">10<animate attributeName="y" values="-24;340" dur="4.3s" repeatCount="indefinite"/></text>
-      <text x="300" y="-42">11<animate attributeName="y" values="-42;340" dur="4.8s" repeatCount="indefinite"/></text>
-      <text x="335" y="-28">00<animate attributeName="y" values="-28;340" dur="5.0s" repeatCount="indefinite"/></text>
-      <text x="370" y="-36">01<animate attributeName="y" values="-36;340" dur="3.7s" repeatCount="indefinite"/></text>
-      <text x="410" y="-22">10<animate attributeName="y" values="-22;340" dur="4.5s" repeatCount="indefinite"/></text>
-      <text x="455" y="-46">11<animate attributeName="y" values="-46;340" dur="5.2s" repeatCount="indefinite"/></text>
-    </g>
-
-    <!-- horizontal scan -->
-    <line x1="0" y1="0" x2="1200" y2="0" stroke="#00ff41" stroke-width="2" opacity="0.12">
-      <animate attributeName="y1" values="0;320" dur="9s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="0;320" dur="9s" repeatCount="indefinite"/>
-    </line>
-
-    <!-- subtle circuit lines -->
-    <g stroke="#00ff41" stroke-width="1" opacity="0.08" fill="none">
-      <path d="M0 80 L200 80 L240 110 L1200 110"/>
-      <path d="M0 220 L180 220 L220 190 L1200 190"/>
-      <circle cx="200" cy="80" r="2" fill="#00ff41"/>
-      <circle cx="240" cy="110" r="2" fill="#00ff41"/>
-      <circle cx="180" cy="220" r="2" fill="#00ff41"/>
-      <circle cx="220" cy="190" r="2" fill="#00ff41"/>
-    </g>
-
-    <!-- content -->
-    <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
-      <text x="70" y="95" font-size="13" letter-spacing="6" fill="#00ff41" opacity="0.65">// SYSTEM ACCESS</text>
-      <text x="70" y="155" font-size="72" font-weight="700" fill="#00ff41" filter="url(#glow)">SANJAYA DANUSHKA</text>
-      <text x="72" y="164" font-size="72" font-weight="700" fill="#00ff41" filter="url(#hardglow)" opacity="0.16">SANJAYA DANUSHKA</text>
-      <line x1="74" y1="172" x2="834" y2="172" stroke="url(#line)" stroke-width="2"/>
-      <text x="74" y="206" font-size="19" fill="#00ff41">SOFTWARE ENGINEER • DEVOPS</text>
-      <text x="74" y="236" font-size="15" fill="#00ff41" opacity="0.55">[ ROOT ACCESS GRANTED ]</text>
-      <rect x="450" y="222" width="10" height="16" fill="#00ff41">
-        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-
-    <!-- corner frame -->
-    <g stroke="#00ff41" stroke-width="1.5" fill="none" opacity="0.4">
-      <path d="M16 16 L56 16 M16 16 L16 56"/>
-      <path d="M1184 16 L1144 16 M1184 16 L1184 56"/>
-      <path d="M16 304 L56 304 M16 304 L16 264"/>
-      <path d="M1184 304 L1144 304 M1184 304 L1184 264"/>
-    </g>
+  <!-- subtle matrix rain -->
+  <g fill="#00ff41" font-family="'JetBrains Mono',monospace" font-size="12" opacity="0.12">
+    <text x="40" y="-10">01<animate attributeName="y" values="-10;210" dur="6s" repeatCount="indefinite"/></text>
+    <text x="80" y="-20">10<animate attributeName="y" values="-20;210" dur="7s" repeatCount="indefinite"/></text>
+    <text x="120" y="-15">11<animate attributeName="y" values="-15;210" dur="6.5s" repeatCount="indefinite"/></text>
+    <text x="160" y="-25">00<animate attributeName="y" values="-25;210" dur="7.5s" repeatCount="indefinite"/></text>
+    <text x="200" y="-12">01<animate attributeName="y" values="-12;210" dur="6.8s" repeatCount="indefinite"/></text>
+    <text x="240" y="-18">10<animate attributeName="y" values="-18;210" dur="7.2s" repeatCount="indefinite"/></text>
   </g>
 
-  <rect x="0" y="0" width="1200" height="320" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.25"/>
+  <!-- content -->
+  <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+    <text x="70" y="80" font-size="14" fill="#00ff41" opacity="0.7">&gt; whoami</text>
+    <text x="70" y="125" font-size="48" font-weight="700" fill="#00ff41" filter="url(#glow)">SANJAYA DANUSHKA</text>
+    <rect x="72" y="136" width="540" height="2" rx="1" fill="#00ff41"/>
+    <text x="72" y="162" font-size="16" fill="#00ff41">SOFTWARE ENGINEER | DEVOPS</text>
+    <rect x="400" y="150" width="8" height="14" fill="#00ff41">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="0" y="0" width="1200" height="200" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.2"/>
 </svg>
