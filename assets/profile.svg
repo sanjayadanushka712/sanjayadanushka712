@@ -145,9 +145,9 @@
     <circle cx="172" cy="671" r="2.5" fill="#00ff88"/>
     <text x="182" y="676" fill="#c9f7e5">LinkedIn</text>
 
-    <rect x="276" y="656" width="132" height="30" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
+    <rect x="276" y="656" width="92" height="30" rx="4" fill="#02120a" stroke="#00ff88" opacity="0.85"/>
     <circle cx="288" cy="671" r="2.5" fill="#00ff88"/>
-    <text x="298" y="676" fill="#c9f7e5">Ghost-Night</text>
+    <text x="298" y="676" fill="#c9f7e5">Email</text>
 
     <text x="1144" y="676" text-anchor="end" fill="#4f8f72" letter-spacing="3">// EOF</text>
   </g>
