@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Exo+2&weight=500&size=15&duration=2800&pause=2000&color=00FF88&center=true&vCenter=true&width=500&lines=Software+Engineer+%7C+DevOps;Linux+%7C+Automation+%7C+Security+%7C+Open-Source" />
+<img src="https://readme-typing-svg.demolab.com?font=Exo+2&weight=500&size=15&duration=2800&pause=2000&color=00FF88&background=00000000&center=true&vCenter=true&width=500&lines=Software+Engineer+%7C+DevOps;Linux+%7C+Automation+%7C+Security+%7C+Open-Source" />
 
 <br/>
 
@@ -25,6 +25,6 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="96%" />
+<img src="https://raw.githubusercontent.com/sanjayadanushka712/sanjayadanushka712/output/github-snake-dark.svg" width="96%" />
 
 </div>
