@@ -1,39 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="Sanjaya Danushka">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220" role="img" aria-label="Sanjaya Danushka">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#000000"/>
       <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
-    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00ff88"/>
-      <stop offset="100%" stop-color="#00ffaa"/>
+    <radialGradient id="glowcore" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00ff88" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
     </linearGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="2.5" result="b"/>
+    <filter id="textglow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#00ff88" opacity="0.08"/>
-    </pattern>
   </defs>
 
-  <rect width="1200" height="200" fill="url(#bg)"/>
-  <rect width="1200" height="200" fill="url(#dots)"/>
+  <rect width="1200" height="220" fill="url(#bg)"/>
+  <circle cx="600" cy="110" r="180" fill="url(#glowcore)"/>
 
-  <!-- top accent -->
-  <rect x="0" y="0" width="1200" height="2" fill="url(#grad)" opacity="0.4"/>
+  <!-- animated shine -->
+  <rect x="-300" y="95" width="300" height="30" fill="url(#shine)" opacity="0.4">
+    <animate attributeName="x" values="-300;1500" dur="4s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- animated line -->
-  <line x1="0" y1="100" x2="0" y2="100" stroke="url(#grad)" stroke-width="1" opacity="0.4">
-    <animate attributeName="x2" values="0;1200" dur="2.5s" repeatCount="indefinite"/>
-  </line>
-
-  <!-- content -->
-  <g font-family="'Satoshi','Inter',system-ui,sans-serif">
-    <text x="600" y="86" font-size="52" font-weight="800" text-anchor="middle" fill="url(#grad)" filter="url(#glow)" letter-spacing="-1">SANJAYA DANUSHKA</text>
-    <text x="600" y="118" font-size="14" text-anchor="middle" fill="#9fffcc" letter-spacing="18" opacity="0.9">SOFTWARE ENGINEER • DEVOPS</text>
+  <!-- hex grid -->
+  <g stroke="#00ff88" stroke-width="0.8" opacity="0.05">
+    <line x1="100" y1="60" x2="200" y2="110"/>
+    <line x1="200" y1="110" x2="100" y2="160"/>
+    <line x1="100" y1="160" x2="0" y2="110"/>
+    <line x1="0" y1="110" x2="100" y2="60"/>
+    <line x1="1100" y1="60" x2="1200" y2="110"/>
+    <line x1="1200" y1="110" x2="1100" y2="160"/>
+    <line x1="1100" y1="160" x2="1000" y2="110"/>
+    <line x1="1000" y1="110" x2="1100" y2="60"/>
   </g>
 
-  <!-- bottom accent -->
-  <rect x="0" y="198" width="1200" height="2" fill="url(#grad)" opacity="0.4"/>
+  <!-- content -->
+  <g font-family="'Exo','Tourney','Inter',system-ui,sans-serif">
+    <text x="600" y="96" font-size="54" font-weight="700" text-anchor="middle" fill="#00ff88" filter="url(#textglow)" letter-spacing="6">SANJAYA DANUSHKA</text>
+    <text x="600" y="128" font-size="13" text-anchor="middle" fill="#b9ffdb" letter-spacing="22" opacity="0.8">SOFTWARE ENGINEER • DEVOPS</text>
+  </g>
+
+  <!-- bottom line -->
+  <rect x="350" y="150" width="500" height="1" fill="#00ff88" opacity="0.25"/>
+  <circle cx="350" cy="150" r="2" fill="#00ff88" opacity="0.6"/>
+  <circle cx="850" cy="150" r="2" fill="#00ff88" opacity="0.6"/>
 </svg>
