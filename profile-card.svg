@@ -1,46 +1,71 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="880" viewBox="0 0 840 880" role="img" aria-labelledby="title desc">
-  <title id="title">Sanjaya Danushka — terminal profile</title>
-  <desc id="desc">A terminal-style introduction focused on software engineering, DevOps, Linux, and open source.</desc>
+  <title id="title">Sanjaya Danushka — Arch Linux profile</title>
+  <desc id="desc">Software engineer and DevOps enthusiast interested in Arch Linux, automation, and open source.</desc>
   <defs>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1b2028"/>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d232c"/>
       <stop offset="1" stop-color="#15181D"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#8bd5ca"/>
       <stop offset="1" stop-color="#a6e3a1"/>
     </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(716 184) rotate(90) scale(250 300)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8bd5ca" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#8bd5ca" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#cdd6f4" opacity=".08"/>
+    </pattern>
   </defs>
-  <rect x="1" y="1" width="838" height="878" rx="24" fill="url(#panel)" stroke="#343b46" stroke-width="2"/>
-  <path d="M1 72h838" stroke="#343b46"/>
-  <circle cx="32" cy="36" r="8" fill="#ff6b6b"/>
-  <circle cx="60" cy="36" r="8" fill="#f6c177"/>
+
+  <!-- Window frame -->
+  <rect x="1" y="1" width="838" height="878" rx="24" fill="url(#surface)" stroke="#3a424e" stroke-width="2"/>
+  <rect x="2" y="2" width="836" height="70" rx="23" fill="#202630"/>
+  <path d="M2 71h836" stroke="#3a424e"/>
+  <circle cx="32" cy="36" r="8" fill="#f38ba8"/>
+  <circle cx="60" cy="36" r="8" fill="#f9e2af"/>
   <circle cx="88" cy="36" r="8" fill="#a6e3a1"/>
-  <text x="420" y="42" text-anchor="middle" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="18">sanjaya@archlinux ~</text>
+  <text x="420" y="42" text-anchor="middle" fill="#a6adbb" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17">sanjaya@archlinux <tspan fill="#657080">—</tspan> profile</text>
+  <rect x="2" y="72" width="836" height="806" fill="url(#grid)" opacity=".45"/>
+  <rect x="2" y="72" width="836" height="390" fill="url(#glow)"/>
 
+  <!-- Identity -->
   <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
-    <text x="54" y="137" fill="#a6e3a1" font-size="20">sanjaya@github</text>
-    <text x="238" y="137" fill="#cdd6f4" font-size="20">~ $ whoami</text>
-    <text x="54" y="203" fill="#f2f4f8" font-size="38" font-weight="700">Sanjaya Danushka</text>
-    <text x="54" y="245" fill="#a6e3a1" font-size="19">Software Engineer  <tspan fill="#657080">/</tspan>  DevOps</text>
-
-    <path d="M54 282h732" stroke="#343b46"/>
-    <text x="54" y="333" fill="#a6e3a1" font-size="19">$ cat about.txt</text>
-    <text x="54" y="377" fill="#cdd6f4" font-size="18">I enjoy building useful software, automating</text>
-    <text x="54" y="409" fill="#cdd6f4" font-size="18">reliable workflows, and learning how systems</text>
-    <text x="54" y="441" fill="#cdd6f4" font-size="18">fit together.</text>
-
-    <path d="M54 478h732" stroke="#343b46"/>
-    <text x="54" y="529" fill="#a6e3a1" font-size="19">$ interests --list</text>
-    <circle cx="64" cy="570" r="4" fill="#a6e3a1"/><text x="82" y="577" fill="#cdd6f4" font-size="18">Arch Linux &amp; open source</text>
-    <circle cx="64" cy="613" r="4" fill="#a6e3a1"/><text x="82" y="620" fill="#cdd6f4" font-size="18">Automation &amp; DevOps</text>
-    <circle cx="64" cy="656" r="4" fill="#a6e3a1"/><text x="82" y="663" fill="#cdd6f4" font-size="18">Building and sharing projects</text>
-
-    <path d="M54 701h732" stroke="#343b46"/>
-    <text x="54" y="751" fill="#a6e3a1" font-size="19">$ printf 'learn • build • share'</text>
-    <text x="54" y="813" fill="#7f8997" font-size="16">Open to ideas, collaboration, and good code.</text>
-    <rect x="54" y="842" width="11" height="20" rx="2" fill="url(#accent)">
-      <animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="indefinite"/>
-    </rect>
+    <text x="54" y="127" fill="#a6e3a1" font-size="17">sanjaya@github</text>
+    <text x="228" y="127" fill="#d6deeb" font-size="17">~ $ whoami</text>
   </g>
+  <text x="52" y="212" fill="#f1f4f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Sanjaya</text>
+  <text x="52" y="274" fill="#f1f4f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Danushka<tspan fill="#a6e3a1">.</tspan></text>
+  <text x="56" y="320" fill="#aeb8c6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Software Engineer <tspan fill="#647180">/</tspan> DevOps</text>
+  <rect x="56" y="347" width="246" height="38" rx="19" fill="#a6e3a1" fill-opacity=".1" stroke="#a6e3a1" stroke-opacity=".35"/>
+  <circle cx="77" cy="366" r="5" fill="#a6e3a1"/>
+  <text x="94" y="372" fill="#b7e6ba" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15">ARCH LINUX ENTHUSIAST</text>
+
+  <!-- About -->
+  <path d="M54 423h732" stroke="#3a424e"/>
+  <text x="56" y="465" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16">$ cat about.txt</text>
+  <text x="56" y="505" fill="#d6deeb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">I like making software and systems easier to build,</text>
+  <text x="56" y="535" fill="#d6deeb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">run, and understand. Always learning, always tinkering.</text>
+
+  <!-- Focus cards -->
+  <path d="M54 580h732" stroke="#3a424e"/>
+  <text x="56" y="621" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" letter-spacing="2">WHAT I ENJOY WORKING ON</text>
+
+  <rect x="54" y="647" width="224" height="104" rx="14" fill="#202630" stroke="#38414d"/>
+  <text x="74" y="686" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15">01 / SYSTEMS</text>
+  <text x="74" y="720" fill="#e5e9f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">Linux &amp; Arch</text>
+
+  <rect x="308" y="647" width="224" height="104" rx="14" fill="#202630" stroke="#38414d"/>
+  <text x="328" y="686" fill="#8bd5ca" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15">02 / WORKFLOW</text>
+  <text x="328" y="720" fill="#e5e9f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">Automation</text>
+
+  <rect x="562" y="647" width="224" height="104" rx="14" fill="#202630" stroke="#38414d"/>
+  <text x="582" y="686" fill="#cba6f7" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15">03 / COMMUNITY</text>
+  <text x="582" y="720" fill="#e5e9f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">Open Source</text>
+
+  <!-- Footer prompt -->
+  <path d="M54 788h732" stroke="#3a424e"/>
+  <text x="56" y="830" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16">$ echo "learn · build · share"</text>
+  <text x="784" y="830" text-anchor="end" fill="#758091" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14">READY</text>
 </svg>
