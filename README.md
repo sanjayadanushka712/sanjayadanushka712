@@ -8,7 +8,7 @@
 <h3><code>sanjaya@github ~ $ ./quem-sou-eu.sh</code></h3>
 <table>
 <tr>
-<td valign="top"><img src="./sanjaya-ascii.svg" width="420" alt="ASCII portrait" /></td>
+<td valign="top"><img src="./sanjaya-video.gif" width="420" alt="Animated video portrait of Sanjaya Danushka" /></td>
 <td valign="top"><img src="./stats.svg" width="420" alt="GitHub stats" /></td>
 </tr>
 </table>
