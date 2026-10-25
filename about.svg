@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 250" width="1100" height="250" role="img" aria-label="About Sanjaya Danushka">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#020a05"/>
+    </linearGradient>
+    <linearGradient id="aline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#00ff88" stop-opacity="0.7"/>
+      <stop offset="75%" stop-color="#00ff88" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="aglow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="1098" height="248" rx="10" fill="url(#abg)"/>
+  <rect x="1" y="1" width="1098" height="248" rx="10" fill="none" stroke="#00ff88" stroke-width="1" opacity="0.22"/>
+
+  <!-- corner accents -->
+  <g stroke="#00ff88" stroke-width="2" fill="none" opacity="0.75">
+    <path d="M12 40 L12 12 L40 12"/>
+    <path d="M1088 210 L1088 238 L1060 238"/>
+  </g>
+
+  <!-- top rule -->
+  <rect x="40" y="34" width="300" height="1" fill="url(#aline)"/>
+
+  <g font-family="'Exo 2','JetBrains Mono',system-ui,sans-serif">
+    <text x="40" y="76" font-size="14" letter-spacing="6" fill="#00ff88" filter="url(#aglow)">// ABOUT</text>
+
+    <g font-size="17" fill="#c9f7e5">
+      <text x="40" y="116">Software engineer and DevOps practitioner focused on Linux, automation and security.</text>
+      <text x="40" y="146">I build secure, minimal systems and practical open-source tools — from browser</text>
+      <text x="40" y="176">identity tooling to cloud-native pipelines.</text>
+    </g>
+
+    <text x="40" y="212" font-size="15" fill="#6fbf9a" font-style="italic">Clean architecture, automation and observability beat clever code.</text>
+    <text x="1010" y="212" font-size="14" text-anchor="end" fill="#00ff88" opacity="0.85">— Sanjaya Danushka</text>
+  </g>
+</svg>

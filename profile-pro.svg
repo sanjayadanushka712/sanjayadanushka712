@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" width="1200" height="820" role="img" aria-label="Sanjaya Danushka — Software Engineer | DevOps">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="50%" stop-color="#010a06"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#00ff88" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="#9dffcc"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00ff88" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="gridDots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.6" cy="1.6" r="0.9" fill="#00ff88" opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="818" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="818" rx="16" fill="url(#gridDots)"/>
+  <rect x="1" y="1" width="1198" height="818" rx="16" fill="none" stroke="#00ff88" stroke-width="1" opacity="0.24"/>
+  <rect x="1" y="1" width="1198" height="818" rx="16" fill="url(#coreGlow)"/>
+
+  <rect x="-200" y="0" width="400" height="820" fill="url(#scan)" opacity="0.07">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 1600 0" dur="14s" repeatCount="indefinite"/>
+  </rect>
+
+  <g stroke="#00ff88" stroke-width="2" fill="none" opacity="0.85">
+    <path d="M22 58 L22 22 L58 22">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1178 762 L1178 798 L1142 798">
+      <animate attributeName="opacity" values="0.9;0.4;0.9" dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g opacity="0.16" transform="translate(1060, 640)">
+    <animateTransform attributeName="transform" type="translate" values="1060 640; 1062 638; 1060 640" dur="6s" repeatCount="indefinite"/>
+    <svg x="-64" y="-64" width="128" height="128" viewBox="0 0 32 32">
+      <g fill="#00ff88">
+        <path d="M15.188 0.807c-1.354 3.313-2.167 5.484-3.672 8.703 0.922 0.979 2.057 2.12 3.896 3.406-1.979-0.818-3.328-1.635-4.339-2.484-1.927 4.026-4.948 9.75-11.073 20.76 4.818-2.781 8.547-4.495 12.026-5.151-0.146-0.641-0.234-1.333-0.229-2.063l0.005-0.151c0.078-3.089 1.682-5.458 3.583-5.297s3.38 2.792 3.307 5.88c-0.016 0.578-0.083 1.135-0.198 1.656 3.443 0.672 7.135 2.38 11.885 5.125-0.938-1.724-1.771-3.281-2.573-4.76-1.255-0.974-2.568-2.245-5.24-3.62 1.839 0.479 3.151 1.031 4.177 1.646-8.12-15.109-8.771-17.12-11.557-23.651z"/>
+      </g>
+    </svg>
+  </g>
+
+  <g font-family="'Exo 2','JetBrains Mono',system-ui,sans-serif">
+    <text x="58" y="72" font-size="13" letter-spacing="9" fill="#00ff88" opacity="0.9">// PROFILE</text>
+    <text x="58" y="144" font-size="52" font-weight="700" letter-spacing="6" fill="url(#nameGrad)" filter="url(#glow)">SANJAYA DANUSHKA</text>
+    <text x="60" y="182" font-size="16" letter-spacing="10" fill="#7dffbf">SOFTWARE ENGINEER • DEVOPS</text>
+  </g>
+
+  <rect x="58" y="214" width="1084" height="1" fill="url(#rule)"/>
+
+  <g font-family="'Exo 2','JetBrains Mono',system-ui,sans-serif">
+    <text x="58" y="252" font-size="13" letter-spacing="9" fill="#00ff88" filter="url(#glow)">// ABOUT</text>
+    <g font-family="'JetBrains Mono',monospace" font-size="16" fill="#c9f7e5">
+      <text x="58" y="292"><tspan fill="#00ff88">root@arch</tspan>:<tspan fill="#7dffbf">~</tspan>$ cat about.txt</text>
+      <text x="58" y="328">Software Engineer with DevOps skills, passionate about building, automating, and deploying</text>
+      <text x="58" y="358">scalable end-to-end solutions. Open-source contributor on GitHub, dedicated to continuous</text>
+      <text x="58" y="388">learning, innovation, and accessible technology.</text>
+    </g>
+    <text x="58" y="428" font-size="15" font-style="italic" fill="#6fbf9a">Driven by automation, reliability &amp; sharing knowledge with the community.</text>
+    <text x="1142" y="428" font-size="14" text-anchor="end" fill="#00ff88" opacity="0.9">— Sanjaya Danushka</text>
+  </g>
+
+  <rect x="58" y="460" width="1084" height="1" fill="url(#rule)"/>
+
+  <g font-family="'Exo 2','JetBrains Mono',system-ui,sans-serif">
+    <text x="58" y="498" font-size="13" letter-spacing="9" fill="#00ff88" filter="url(#glow)">// TECH STACK</text>
+  </g>
+
+  <g font-family="'JetBrains Mono',monospace" font-size="11" fill="#4f8f72">
+    <text x="48" y="540">LANGS</text>
+    <text x="48" y="596">FRONT</text>
+    <text x="48" y="652">UI/UX</text>
+    <text x="48" y="708">PLAT</text>
+    <text x="48" y="764">DB/T</text>
+  </g>
+
+  <g stroke="#00ff88" stroke-width="1" opacity="0.09">
+    <line x1="58" y1="558" x2="1142" y2="558"/>
+    <line x1="58" y1="614" x2="1142" y2="614"/>
+    <line x1="58" y1="670" x2="1142" y2="670"/>
+    <line x1="58" y1="726" x2="1142" y2="726"/>
+  </g>
+
+  <g font-family="'JetBrains Mono',monospace" font-size="13" fill="#d6fff0">
+    <rect x="188" y="522" width="78" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="200" cy="536" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.2s" repeatCount="indefinite"/></circle><text x="212" y="541">Python</text>
+    <rect x="278" y="522" width="62" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="290" cy="536" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite"/></circle><text x="302" y="541">Java</text>
+    <rect x="352" y="522" width="46" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="364" cy="536" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.9s" repeatCount="indefinite"/></circle><text x="376" y="541">Go</text>
+    <rect x="410" y="522" width="112" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="422" cy="536" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.4s" repeatCount="indefinite"/></circle><text x="434" y="541">TypeScript</text>
+    <rect x="534" y="522" width="62" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="546" cy="536" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="1;0.2;1" dur="3.1s" repeatCount="indefinite"/></circle><text x="558" y="541">Bash</text>
+    <rect x="608" y="522" width="62" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="620" cy="536" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.7s" repeatCount="indefinite"/></circle><text x="632" y="541">Dart</text>
+
+    <rect x="188" y="578" width="80" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="200" cy="592" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></circle><text x="212" y="597">Next.js</text>
+    <rect x="280" y="578" width="76" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="292" cy="592" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.8s" repeatCount="indefinite"/></circle><text x="304" y="597">Flutter</text>
+
+    <rect x="188" y="634" width="62" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="200" cy="648" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle><text x="212" y="653">PyQt</text>
+    <rect x="262" y="634" width="112" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="274" cy="648" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.0s" repeatCount="indefinite"/></circle><text x="286" y="653">shadcn/ui</text>
+    <rect x="386" y="634" width="70" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="398" cy="648" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="1;0.25;1" dur="2.7s" repeatCount="indefinite"/></circle><text x="410" y="653">Figma</text>
+
+    <rect x="188" y="690" width="70" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="200" cy="704" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.3s" repeatCount="indefinite"/></circle><text x="212" y="709">Linux</text>
+    <rect x="270" y="690" width="78" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="282" cy="704" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="1;0.25;1" dur="2.8s" repeatCount="indefinite"/></circle><text x="294" y="709">Docker</text>
+    <rect x="360" y="690" width="112" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="372" cy="704" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle><text x="384" y="709">Kubernetes</text>
+    <rect x="484" y="690" width="86" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="496" cy="704" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.0s" repeatCount="indefinite"/></circle><text x="508" y="709">Jenkins</text>
+    <rect x="582" y="690" width="102" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="594" cy="704" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="1;0.25;1" dur="2.9s" repeatCount="indefinite"/></circle><text x="606" y="709">Terraform</text>
+    <rect x="696" y="690" width="54" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="708" cy="704" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.7s" repeatCount="indefinite"/></circle><text x="720" y="709">AWS</text>
+    <rect x="762" y="690" width="54" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="774" cy="704" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.8s" repeatCount="indefinite"/></circle><text x="786" y="709">GCP</text>
+    <rect x="828" y="690" width="62" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="840" cy="704" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="1;0.25;1" dur="3.0s" repeatCount="indefinite"/></circle><text x="852" y="709">Azure</text>
+
+    <rect x="188" y="746" width="110" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="200" cy="760" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite"/></circle><text x="212" y="765">PostgreSQL</text>
+    <rect x="310" y="746" width="88" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="322" cy="760" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></circle><text x="334" y="765">MongoDB</text>
+    <rect x="410" y="746" width="90" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="422" cy="760" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.8s" repeatCount="indefinite"/></circle><text x="434" y="765">Supabase</text>
+    <rect x="512" y="746" width="84" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="524" cy="760" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="1;0.25;1" dur="2.9s" repeatCount="indefinite"/></circle><text x="536" y="765">Drizzle</text>
+    <rect x="608" y="746" width="76" height="28" rx="5" fill="#021a11" stroke="#00ff88" opacity="0.95"/><circle cx="620" cy="760" r="2.6" fill="#00ff88"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.7s" repeatCount="indefinite"/></circle><text x="632" y="765">Sentry</text>
+  </g>
+
+  <rect x="58" y="788" width="1084" height="1" fill="url(#rule)"/>
+
+  <g font-family="'JetBrains Mono',monospace" font-size="12" letter-spacing="4">
+    <text x="58" y="812" fill="#4f8f72">[SYSTEM: ONLINE] | [OS: ARCH LINUX]</text>
+    <text x="1142" y="812" text-anchor="end" fill="#00ff88" opacity="0.9">[EOF]</text>
+  </g>
+</svg>
