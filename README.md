@@ -2,9 +2,11 @@
 
 <h2><code>sanjaya@github ~ $ whoami</code></h2>
 <p><strong>Software Engineer · DevOps · Arch Linux enthusiast</strong></p>
-<p>Building reliable software through automation, security, and open source.</p>
+<p>Engineering dependable systems with Linux, automation, and thoughtful DevOps.</p>
 
-<p align="center"><img src="./sanjaya-video-terminal.gif" width="400" height="440" alt="Sanjaya Danushka in an Arch Linux terminal window"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./profile-card-matched.svg" width="400" height="440" alt="Sanjaya's software engineering profile and toolkit"/></p>
+<p align="center"><img src="./sanjaya-video-terminal.gif" width="400" height="440" alt="Sanjaya Danushka in an Arch Linux terminal window"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./profile-card-matched.svg" width="400" height="440" alt="Sanjaya's software engineering profile and toolkit"/></p>
+
+<br/>
 
 <p>
   <a href="https://github.com/sanjayadanushka712"><img src="https://img.shields.io/badge/GitHub-15181D?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
