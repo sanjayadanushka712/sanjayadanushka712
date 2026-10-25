@@ -1,71 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="880" viewBox="0 0 840 880" role="img" aria-labelledby="title desc">
-  <title id="title">Sanjaya Danushka — Arch Linux profile</title>
-  <desc id="desc">Software engineer and DevOps enthusiast interested in Arch Linux, automation, and open source.</desc>
+  <title id="title">Sanjaya Danushka — software engineer</title>
+  <desc id="desc">A minimal editorial profile about software, DevOps, Linux, automation, and open source.</desc>
   <defs>
-    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1d232c"/>
-      <stop offset="1" stop-color="#15181D"/>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#56c8f5"/>
+      <stop offset="1" stop-color="#1793d1"/>
     </linearGradient>
-    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#8bd5ca"/>
-      <stop offset="1" stop-color="#a6e3a1"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(716 184) rotate(90) scale(250 300)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#8bd5ca" stop-opacity=".12"/>
-      <stop offset="1" stop-color="#8bd5ca" stop-opacity="0"/>
+    <radialGradient id="wash" cx="0" cy="0" r="1" gradientTransform="translate(688 195) rotate(90) scale(300 360)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1793d1" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#1793d1" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#cdd6f4" opacity=".08"/>
+    <pattern id="lines" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <path d="M0 0v12" stroke="#9aa4b2" stroke-opacity=".07"/>
     </pattern>
   </defs>
 
-  <!-- Window frame -->
-  <rect x="1" y="1" width="838" height="878" rx="24" fill="url(#surface)" stroke="#3a424e" stroke-width="2"/>
-  <rect x="2" y="2" width="836" height="70" rx="23" fill="#202630"/>
-  <path d="M2 71h836" stroke="#3a424e"/>
-  <circle cx="32" cy="36" r="8" fill="#f38ba8"/>
-  <circle cx="60" cy="36" r="8" fill="#f9e2af"/>
-  <circle cx="88" cy="36" r="8" fill="#a6e3a1"/>
-  <text x="420" y="42" text-anchor="middle" fill="#a6adbb" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17">sanjaya@archlinux <tspan fill="#657080">—</tspan> profile</text>
-  <rect x="2" y="72" width="836" height="806" fill="url(#grid)" opacity=".45"/>
-  <rect x="2" y="72" width="836" height="390" fill="url(#glow)"/>
+  <rect width="840" height="880" rx="22" fill="#15181D"/>
+  <rect width="840" height="880" rx="22" fill="url(#wash)"/>
+  <rect x="1" y="1" width="838" height="878" rx="21" fill="none" stroke="#343b46" stroke-width="2"/>
+  <path d="M570 0h248a22 22 0 0 1 22 22v420H570z" fill="url(#lines)" opacity=".8"/>
 
-  <!-- Identity -->
   <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
-    <text x="54" y="127" fill="#a6e3a1" font-size="17">sanjaya@github</text>
-    <text x="228" y="127" fill="#d6deeb" font-size="17">~ $ whoami</text>
+    <text x="54" y="64" fill="#7f8b99" font-size="15" letter-spacing="2">PROFILE <tspan fill="#1793d1">/</tspan> 01</text>
+    <text x="786" y="64" text-anchor="end" fill="#7f8b99" font-size="15">ARCH LINUX</text>
   </g>
-  <text x="52" y="212" fill="#f1f4f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Sanjaya</text>
-  <text x="52" y="274" fill="#f1f4f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Danushka<tspan fill="#a6e3a1">.</tspan></text>
-  <text x="56" y="320" fill="#aeb8c6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Software Engineer <tspan fill="#647180">/</tspan> DevOps</text>
-  <rect x="56" y="347" width="246" height="38" rx="19" fill="#a6e3a1" fill-opacity=".1" stroke="#a6e3a1" stroke-opacity=".35"/>
-  <circle cx="77" cy="366" r="5" fill="#a6e3a1"/>
-  <text x="94" y="372" fill="#b7e6ba" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15">ARCH LINUX ENTHUSIAST</text>
 
-  <!-- About -->
-  <path d="M54 423h732" stroke="#3a424e"/>
-  <text x="56" y="465" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16">$ cat about.txt</text>
-  <text x="56" y="505" fill="#d6deeb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">I like making software and systems easier to build,</text>
-  <text x="56" y="535" fill="#d6deeb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">run, and understand. Always learning, always tinkering.</text>
+  <path d="M54 103h732" stroke="#343b46"/>
+  <text x="50" y="211" fill="#f2f4f8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="74" font-weight="750" letter-spacing="-4">SANJAYA</text>
+  <text x="50" y="292" fill="#f2f4f8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="74" font-weight="750" letter-spacing="-4">DANUSHKA<tspan fill="url(#blue)">.</tspan></text>
 
-  <!-- Focus cards -->
-  <path d="M54 580h732" stroke="#3a424e"/>
-  <text x="56" y="621" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" letter-spacing="2">WHAT I ENJOY WORKING ON</text>
+  <rect x="54" y="331" width="5" height="56" rx="2.5" fill="url(#blue)"/>
+  <text x="77" y="353" fill="#dbe2ea" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="600">Software Engineer</text>
+  <text x="77" y="381" fill="#8994a3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">DevOps · Linux · Open Source</text>
 
-  <rect x="54" y="647" width="224" height="104" rx="14" fill="#202630" stroke="#38414d"/>
-  <text x="74" y="686" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15">01 / SYSTEMS</text>
-  <text x="74" y="720" fill="#e5e9f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">Linux &amp; Arch</text>
+  <text x="54" y="465" fill="#56c8f5" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16" letter-spacing="1">A LITTLE ABOUT HOW I WORK</text>
+  <text x="54" y="511" fill="#d0d7e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">Curious by nature. I enjoy shaping ideas into</text>
+  <text x="54" y="543" fill="#d0d7e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">useful software, improving workflows, and</text>
+  <text x="54" y="575" fill="#d0d7e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">learning by building.</text>
 
-  <rect x="308" y="647" width="224" height="104" rx="14" fill="#202630" stroke="#38414d"/>
-  <text x="328" y="686" fill="#8bd5ca" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15">02 / WORKFLOW</text>
-  <text x="328" y="720" fill="#e5e9f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">Automation</text>
+  <path d="M54 624h732" stroke="#343b46"/>
+  <text x="54" y="672" fill="#7f8b99" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" letter-spacing="2">CURRENT CURIOSITIES</text>
+  <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15">
+    <rect x="54" y="701" width="153" height="42" rx="21" fill="#1793d1" fill-opacity=".13" stroke="#1793d1" stroke-opacity=".55"/>
+    <text x="130" y="727" text-anchor="middle" fill="#8bd5f2">ARCH LINUX</text>
+    <rect x="220" y="701" width="171" height="42" rx="21" fill="#202630" stroke="#3a424e"/>
+    <text x="305" y="727" text-anchor="middle" fill="#c7d0dc">AUTOMATION</text>
+    <rect x="404" y="701" width="177" height="42" rx="21" fill="#202630" stroke="#3a424e"/>
+    <text x="492" y="727" text-anchor="middle" fill="#c7d0dc">OPEN SOURCE</text>
+  </g>
 
-  <rect x="562" y="647" width="224" height="104" rx="14" fill="#202630" stroke="#38414d"/>
-  <text x="582" y="686" fill="#cba6f7" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15">03 / COMMUNITY</text>
-  <text x="582" y="720" fill="#e5e9f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">Open Source</text>
-
-  <!-- Footer prompt -->
-  <path d="M54 788h732" stroke="#3a424e"/>
-  <text x="56" y="830" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16">$ echo "learn · build · share"</text>
-  <text x="784" y="830" text-anchor="end" fill="#758091" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14">READY</text>
+  <path d="M54 790h732" stroke="#343b46"/>
+  <text x="54" y="833" fill="#56c8f5" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16">$ keep_building --with-curiosity</text>
+  <circle cx="782" cy="828" r="5" fill="#56c8f5"/>
 </svg>
