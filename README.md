@@ -2,8 +2,8 @@
 
 <table>
 <tr>
-<td valign="middle"><img src="./sanjaya-video-15181d.gif" width="360" alt="Sanjaya Danushka" /></td>
-<td valign="middle"><img src="./profile-card.svg" width="570" alt="Sanjaya's software engineering profile and toolkit" /></td>
+<td valign="middle"><img src="./sanjaya-video-15181d.gif" width="420" alt="Sanjaya Danushka" /></td>
+<td valign="middle"><img src="./profile-card.svg" width="420" alt="Sanjaya's software engineering profile and toolkit" /></td>
 </tr>
 </table>
 
