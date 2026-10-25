@@ -22,31 +22,31 @@
 
   <path d="M54 247h732" stroke="#343b46"/>
   <text x="54" y="288" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="20">$ cat about.txt</text>
-  <text x="54" y="328" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Focused on Linux, automation, security, and building scalable systems.</text>
-  <text x="54" y="359" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Open-source contributor, driven by reliability and continuous learning.</text>
+  <text x="54" y="328" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Focused on Linux, automation, security, and reliable delivery.</text>
+  <text x="54" y="359" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Open-source contributor; always learning and sharing.</text>
 
   <path d="M54 395h732" stroke="#343b46"/>
   <text x="54" y="437" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="20">$ pacman -Qe | grep -E 'languages|tools'</text>
 
   <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
     <rect x="54" y="460" width="732" height="91" rx="12" fill="#202630" stroke="#343b46"/>
-    <text x="76" y="491" fill="#8bd5ca" font-size="18" letter-spacing="1">LANGUAGES</text>
-    <text x="76" y="520" fill="#e5e9f0" font-size="22">Python · Java · Go · TypeScript</text>
-    <text x="76" y="544" fill="#e5e9f0" font-size="22">JavaScript · Dart · Bash</text>
+    <text x="76" y="491" fill="#8bd5ca" font-size="20" letter-spacing="1">LANGUAGES</text>
+    <text x="76" y="520" fill="#e5e9f0" font-size="24">Python · Java · Go · TypeScript</text>
+    <text x="76" y="544" fill="#e5e9f0" font-size="24">JavaScript · Dart · Bash</text>
 
     <rect x="54" y="563" width="732" height="83" rx="12" fill="#202630" stroke="#343b46"/>
-    <text x="76" y="594" fill="#8bd5ca" font-size="18" letter-spacing="1">FRONTEND &amp; UI</text>
-    <text x="76" y="628" fill="#e5e9f0" font-size="22">Next.js · Flutter · React · Figma</text>
+    <text x="76" y="594" fill="#8bd5ca" font-size="20" letter-spacing="1">FRONTEND &amp; UI</text>
+    <text x="76" y="628" fill="#e5e9f0" font-size="24">Next.js · Flutter · React · Figma</text>
 
     <rect x="54" y="658" width="732" height="98" rx="12" fill="#202630" stroke="#343b46"/>
-    <text x="76" y="689" fill="#8bd5ca" font-size="18" letter-spacing="1">PLATFORM, DEVOPS &amp; CLOUD</text>
-    <text x="76" y="719" fill="#e5e9f0" font-size="22">Linux · Arch Linux · Docker · Kubernetes</text>
-    <text x="76" y="744" fill="#e5e9f0" font-size="22">Jenkins · Terraform · AWS · Google Cloud · Azure</text>
+    <text x="76" y="689" fill="#8bd5ca" font-size="20" letter-spacing="1">PLATFORM, DEVOPS &amp; CLOUD</text>
+    <text x="76" y="719" fill="#e5e9f0" font-size="24">Linux · Arch Linux · Docker · Kubernetes</text>
+    <text x="76" y="744" fill="#e5e9f0" font-size="24">Jenkins · Terraform · AWS · Google Cloud · Azure</text>
 
     <rect x="54" y="766" width="732" height="98" rx="12" fill="#202630" stroke="#343b46"/>
-    <text x="76" y="797" fill="#8bd5ca" font-size="18" letter-spacing="1">DATABASES &amp; TOOLS</text>
-    <text x="76" y="829" fill="#e5e9f0" font-size="22">PostgreSQL · MongoDB · Supabase</text>
-    <text x="76" y="853" fill="#e5e9f0" font-size="22">Git · GitHub · Sentry</text>
+    <text x="76" y="797" fill="#8bd5ca" font-size="20" letter-spacing="1">DATABASES &amp; TOOLS</text>
+    <text x="76" y="829" fill="#e5e9f0" font-size="24">PostgreSQL · MongoDB · Supabase</text>
+    <text x="76" y="853" fill="#e5e9f0" font-size="24">Git · GitHub · Sentry</text>
   </g>
   <rect x="54" y="870" width="732" height="3" rx="1.5" fill="url(#accent)"/>
 </svg>

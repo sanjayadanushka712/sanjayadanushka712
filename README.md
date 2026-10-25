@@ -1,5 +1,9 @@
 <div align="center">
 
+<h2><code>sanjaya@github ~ $ whoami</code></h2>
+<p><strong>Software Engineer · DevOps · Arch Linux enthusiast</strong></p>
+<p>Building reliable software through automation, security, and open source.</p>
+
 <table>
 <tr>
 <td valign="middle"><img src="./sanjaya-video-terminal.gif" width="420" height="440" style="display:block" alt="Sanjaya Danushka in an Arch Linux terminal window" /></td>
