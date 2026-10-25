@@ -4,10 +4,10 @@
 <p><strong>Software Engineer · DevOps · Arch Linux enthusiast</strong></p>
 <p>Building reliable software through automation, security, and open source.</p>
 
-<table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
-<td valign="middle"><img src="./sanjaya-video-terminal.gif" width="420" height="440" style="display:block" alt="Sanjaya Danushka in an Arch Linux terminal window" /></td>
-<td valign="middle"><img src="./profile-card-matched.svg" width="420" height="440" style="display:block" alt="Sanjaya's software engineering profile and toolkit" /></td>
+<td width="50%" align="center" valign="middle"><img src="./sanjaya-video-terminal.gif" width="420" height="440" style="display:block" alt="Sanjaya Danushka in an Arch Linux terminal window" /></td>
+<td width="50%" align="center" valign="middle"><img src="./profile-card-matched.svg" width="420" height="440" style="display:block" alt="Sanjaya's software engineering profile and toolkit" /></td>
 </tr>
 </table>
 
