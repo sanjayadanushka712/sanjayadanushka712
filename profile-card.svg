@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="880" viewBox="0 0 840 880" role="img" aria-labelledby="title desc">
+  <title id="title">Sanjaya Danushka — Software Engineer and DevOps</title>
+  <desc id="desc">A concise English profile and technology overview on a dark Arch Linux inspired card.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1b2028"/><stop offset="1" stop-color="#15181D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#8bd5ca"/><stop offset="1" stop-color="#a6e3a1"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="838" height="878" rx="24" fill="url(#bg)" stroke="#343b46" stroke-width="2"/>
+  <path d="M1 70h838" stroke="#343b46"/>
+  <circle cx="32" cy="35" r="8" fill="#f38ba8"/><circle cx="60" cy="35" r="8" fill="#f9e2af"/><circle cx="88" cy="35" r="8" fill="#a6e3a1"/>
+  <text x="420" y="41" text-anchor="middle" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17">sanjaya@github ~</text>
+
+  <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
+    <text x="54" y="122" fill="#a6e3a1" font-size="17">$ whoami</text>
+    <text x="54" y="178" fill="#f2f4f8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="38" font-weight="700">Sanjaya Danushka</text>
+    <text x="56" y="215" fill="#a6e3a1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Software Engineer <tspan fill="#657080">/</tspan> DevOps</text>
+  </g>
+
+  <path d="M54 250h732" stroke="#343b46"/>
+  <text x="54" y="291" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17">$ cat about.txt</text>
+  <text x="54" y="329" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">Building scalable software with a focus on Linux, automation,</text>
+  <text x="54" y="358" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">security, and reliable delivery from development to deployment.</text>
+
+  <path d="M54 391h732" stroke="#343b46"/>
+  <text x="54" y="432" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17">$ pacman -Qe | grep -E 'languages|tools'</text>
+
+  <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
+    <text x="54" y="482" fill="#8b949e" font-size="14" letter-spacing="1.5">LANGUAGES</text>
+    <text x="220" y="482" fill="#e5e9f0" font-size="16">Python · Go · TypeScript · JavaScript · Dart · Bash</text>
+    <path d="M54 501h732" stroke="#2d343e"/>
+
+    <text x="54" y="541" fill="#8b949e" font-size="14" letter-spacing="1.5">FRONTEND</text>
+    <text x="220" y="541" fill="#e5e9f0" font-size="16">Next.js · Flutter · React · Figma</text>
+    <path d="M54 560h732" stroke="#2d343e"/>
+
+    <text x="54" y="600" fill="#8b949e" font-size="14" letter-spacing="1.5">PLATFORM</text>
+    <text x="220" y="600" fill="#e5e9f0" font-size="16">Linux · Arch · Docker · Kubernetes · Jenkins</text>
+    <text x="220" y="627" fill="#e5e9f0" font-size="16">Terraform · AWS · Google Cloud · Azure</text>
+    <path d="M54 646h732" stroke="#2d343e"/>
+
+    <text x="54" y="686" fill="#8b949e" font-size="14" letter-spacing="1.5">DATA &amp; TOOLS</text>
+    <text x="220" y="686" fill="#e5e9f0" font-size="16">PostgreSQL · MongoDB · Supabase · Git · GitHub · Sentry</text>
+  </g>
+
+  <path d="M54 729h732" stroke="#343b46"/>
+  <text x="54" y="779" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16">$ ./build-reliable-things.sh</text>
+  <text x="54" y="824" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Open-source contributor · always learning</text>
+  <rect x="54" y="844" width="10" height="18" rx="2" fill="url(#accent)">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
