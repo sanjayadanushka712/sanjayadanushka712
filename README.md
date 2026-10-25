@@ -10,11 +10,11 @@
 
 </div>
 
-## Featured project
+## Contributions
 
-### [NeoArch](https://github.com/Sanjaya-Danushka/Neoarch)
-
-A unified package and system manager for Arch Linux, bringing **pacman, AUR, Flatpak, and npm** together in a desktop app and command-line workflow.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sanjayadanushka712/sanjayadanushka712/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
+</p>
 
 ## Connect
 
