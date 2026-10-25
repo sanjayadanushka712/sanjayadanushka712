@@ -15,6 +15,10 @@
     <text x="54" y="174" fill="#f2f4f8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="36" font-weight="700">Sanjaya Danushka</text>
     <text x="56" y="211" fill="#8bd5ca" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">Software Engineer <tspan fill="#657080">/</tspan> DevOps</text>
   </g>
+  <g opacity=".2" transform="translate(675 116)">
+    <path d="M0 70 41 -12 82 70H59L41 34 23 70Z" fill="#56c8f5"/>
+    <path d="M41 53 32 70h18Z" fill="#15181D"/>
+  </g>
 
   <path d="M54 247h732" stroke="#343b46"/>
   <text x="54" y="288" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="18">$ cat about.txt</text>
@@ -33,14 +37,14 @@
     <text x="76" y="594" fill="#8bd5ca" font-size="15" letter-spacing="1">FRONTEND &amp; UI</text>
     <text x="76" y="626" fill="#e5e9f0" font-size="18">Next.js · Flutter · React · Figma</text>
 
-    <rect x="54" y="658" width="732" height="91" rx="12" fill="#202630" stroke="#343b46"/>
+    <rect x="54" y="658" width="732" height="98" rx="12" fill="#202630" stroke="#343b46"/>
     <text x="76" y="689" fill="#8bd5ca" font-size="15" letter-spacing="1">PLATFORM, DEVOPS &amp; CLOUD</text>
     <text x="76" y="722" fill="#e5e9f0" font-size="17">Linux · Arch Linux · Docker · Kubernetes · Jenkins · Terraform</text>
-    <text x="76" y="735" fill="#e5e9f0" font-size="17">AWS · Google Cloud · Azure</text>
+    <text x="76" y="744" fill="#e5e9f0" font-size="17">AWS · Google Cloud · Azure</text>
 
-    <rect x="54" y="761" width="732" height="83" rx="12" fill="#202630" stroke="#343b46"/>
-    <text x="76" y="792" fill="#8bd5ca" font-size="15" letter-spacing="1">DATABASES &amp; TOOLS</text>
-    <text x="76" y="824" fill="#e5e9f0" font-size="17">PostgreSQL · MongoDB · Supabase · Git · GitHub · Sentry</text>
+    <rect x="54" y="766" width="732" height="83" rx="12" fill="#202630" stroke="#343b46"/>
+    <text x="76" y="797" fill="#8bd5ca" font-size="15" letter-spacing="1">DATABASES &amp; TOOLS</text>
+    <text x="76" y="829" fill="#e5e9f0" font-size="17">PostgreSQL · MongoDB · Supabase · Git · GitHub · Sentry</text>
   </g>
   <rect x="54" y="859" width="732" height="3" rx="1.5" fill="url(#accent)"/>
 </svg>
