@@ -8,12 +8,12 @@
   <rect x="1" y="1" width="838" height="878" rx="24" fill="url(#bg)" stroke="#343b46" stroke-width="2"/>
   <path d="M1 70h838" stroke="#343b46"/>
   <circle cx="32" cy="35" r="8" fill="#f38ba8"/><circle cx="60" cy="35" r="8" fill="#f9e2af"/><circle cx="88" cy="35" r="8" fill="#a6e3a1"/>
-  <text x="420" y="41" text-anchor="middle" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17">sanjaya@archlinux ~ $ ./profile.sh</text>
+  <text x="420" y="41" text-anchor="middle" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">sanjaya@archlinux ~ $ ./profile.sh</text>
 
   <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
-    <text x="54" y="122" fill="#a6e3a1" font-size="18">$ whoami</text>
+    <text x="54" y="122" fill="#a6e3a1" font-size="20">$ whoami</text>
     <text x="54" y="174" fill="#f2f4f8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="36" font-weight="700">Sanjaya Danushka</text>
-    <text x="56" y="211" fill="#8bd5ca" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">Software Engineer <tspan fill="#657080">/</tspan> DevOps</text>
+    <text x="56" y="211" fill="#8bd5ca" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Software Engineer <tspan fill="#657080">/</tspan> DevOps</text>
   </g>
   <g opacity=".2" transform="translate(675 116)">
     <path d="M0 70 41 -12 82 70H59L41 34 23 70Z" fill="#56c8f5"/>
@@ -21,30 +21,32 @@
   </g>
 
   <path d="M54 247h732" stroke="#343b46"/>
-  <text x="54" y="288" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="18">$ cat about.txt</text>
-  <text x="54" y="328" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Focused on Linux, automation, security, and building scalable systems.</text>
-  <text x="54" y="359" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Open-source contributor, driven by reliability and continuous learning.</text>
+  <text x="54" y="288" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="20">$ cat about.txt</text>
+  <text x="54" y="328" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Focused on Linux, automation, security, and building scalable systems.</text>
+  <text x="54" y="359" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Open-source contributor, driven by reliability and continuous learning.</text>
 
   <path d="M54 395h732" stroke="#343b46"/>
-  <text x="54" y="437" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="18">$ pacman -Qe | grep -E 'languages|tools'</text>
+  <text x="54" y="437" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="20">$ pacman -Qe | grep -E 'languages|tools'</text>
 
   <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
     <rect x="54" y="460" width="732" height="91" rx="12" fill="#202630" stroke="#343b46"/>
-    <text x="76" y="491" fill="#8bd5ca" font-size="15" letter-spacing="1">LANGUAGES</text>
-    <text x="76" y="526" fill="#e5e9f0" font-size="18">Python · Java · Go · TypeScript · JavaScript · Dart · Bash</text>
+    <text x="76" y="491" fill="#8bd5ca" font-size="18" letter-spacing="1">LANGUAGES</text>
+    <text x="76" y="520" fill="#e5e9f0" font-size="22">Python · Java · Go · TypeScript</text>
+    <text x="76" y="544" fill="#e5e9f0" font-size="22">JavaScript · Dart · Bash</text>
 
     <rect x="54" y="563" width="732" height="83" rx="12" fill="#202630" stroke="#343b46"/>
-    <text x="76" y="594" fill="#8bd5ca" font-size="15" letter-spacing="1">FRONTEND &amp; UI</text>
-    <text x="76" y="626" fill="#e5e9f0" font-size="18">Next.js · Flutter · React · Figma</text>
+    <text x="76" y="594" fill="#8bd5ca" font-size="18" letter-spacing="1">FRONTEND &amp; UI</text>
+    <text x="76" y="628" fill="#e5e9f0" font-size="22">Next.js · Flutter · React · Figma</text>
 
     <rect x="54" y="658" width="732" height="98" rx="12" fill="#202630" stroke="#343b46"/>
-    <text x="76" y="689" fill="#8bd5ca" font-size="15" letter-spacing="1">PLATFORM, DEVOPS &amp; CLOUD</text>
-    <text x="76" y="722" fill="#e5e9f0" font-size="17">Linux · Arch Linux · Docker · Kubernetes · Jenkins · Terraform</text>
-    <text x="76" y="744" fill="#e5e9f0" font-size="17">AWS · Google Cloud · Azure</text>
+    <text x="76" y="689" fill="#8bd5ca" font-size="18" letter-spacing="1">PLATFORM, DEVOPS &amp; CLOUD</text>
+    <text x="76" y="719" fill="#e5e9f0" font-size="22">Linux · Arch Linux · Docker · Kubernetes</text>
+    <text x="76" y="744" fill="#e5e9f0" font-size="22">Jenkins · Terraform · AWS · Google Cloud · Azure</text>
 
-    <rect x="54" y="766" width="732" height="83" rx="12" fill="#202630" stroke="#343b46"/>
-    <text x="76" y="797" fill="#8bd5ca" font-size="15" letter-spacing="1">DATABASES &amp; TOOLS</text>
-    <text x="76" y="829" fill="#e5e9f0" font-size="17">PostgreSQL · MongoDB · Supabase · Git · GitHub · Sentry</text>
+    <rect x="54" y="766" width="732" height="98" rx="12" fill="#202630" stroke="#343b46"/>
+    <text x="76" y="797" fill="#8bd5ca" font-size="18" letter-spacing="1">DATABASES &amp; TOOLS</text>
+    <text x="76" y="829" fill="#e5e9f0" font-size="22">PostgreSQL · MongoDB · Supabase</text>
+    <text x="76" y="853" fill="#e5e9f0" font-size="22">Git · GitHub · Sentry</text>
   </g>
-  <rect x="54" y="859" width="732" height="3" rx="1.5" fill="url(#accent)"/>
+  <rect x="54" y="870" width="732" height="3" rx="1.5" fill="url(#accent)"/>
 </svg>
