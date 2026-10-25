@@ -1,0 +1,51 @@
+name: Generate snake animation
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/snake.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Publish generated files to output branch
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p /tmp/snake-output
+          cp dist/*.svg /tmp/snake-output/
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git switch --orphan output
+          git rm -rf . || true
+          git clean -fdx
+
+          cp /tmp/snake-output/*.svg .
+          git add *.svg
+          git commit -m "chore: update contribution snake"
+          git push --force origin output
