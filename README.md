@@ -16,6 +16,12 @@
   <img src="https://raw.githubusercontent.com/sanjayadanushka712/sanjayadanushka712/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
 </p>
 
+## Featured Projects
+
+- **[NeoArch](https://github.com/sanjayadanushka712/Neoarch)** — multi-source package manager GUI for Arch Linux (pacman, AUR, Flatpak, npm, pipx).
+- **[TaskFlow](https://github.com/sanjayadanushka712/TaskFlow)** — end-to-end DevOps API built with FastAPI, PostgreSQL, Docker Compose, and GitHub Actions CI.
+- **[archcanary](https://github.com/sanjayadanushka712/archcanary)** — layered AUR supply-chain scanner with systemd, eBPF, and kmod auditing.
+
 ## Connect
 
 <p align="center">
