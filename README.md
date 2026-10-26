@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1><code>sanjaya@github ~ $ whoami</code></h1>
-<p><strong>Software Engineer · DevOps · Arch Linux enthusiast</strong></p>
+<p><strong>Software Engineer · DevOps · Linux enthusiast</strong></p>
 <p>Building useful Linux tools and dependable automation through open source.</p>
 
 <p>
