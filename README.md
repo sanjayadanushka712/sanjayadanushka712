@@ -22,6 +22,10 @@
 - **[TaskFlow](https://github.com/sanjayadanushka712/TaskFlow)** — end-to-end DevOps API built with FastAPI, PostgreSQL, Docker Compose, and GitHub Actions CI.
 - **[archcanary](https://github.com/sanjayadanushka712/archcanary)** — layered AUR supply-chain scanner with systemd, eBPF, and kmod auditing.
 
+## Tech Stack
+
+`Bash` · `Go` · `Java` · `TypeScript` · `Python` · `PyQt` · `Docker` · `Kubernetes` · `Jenkins` · `Linux` · `PostgreSQL` · `MongoDB`
+
 ## Connect
 
 <p align="center">
