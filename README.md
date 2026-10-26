@@ -5,7 +5,8 @@
 <p>Building useful Linux tools and dependable automation through open source.</p>
 
 <p>
-  <img src="./sanjaya-video-terminal.gif" width="400" height="440" alt="Animated ASCII portrait of Sanjaya Danushka in an Arch Linux terminal" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./profile-card-matched.svg" width="400" height="440" alt="Terminal profile card with Sanjaya's introduction and categorized technology stack" />
+  <img src="./sanjaya-video-terminal.gif" width="400" height="440" alt="Animated ASCII portrait of Sanjaya Danushka in an Arch Linux terminal" />
+  <img src="./profile-card-matched.svg" width="400" height="440" alt="Terminal profile card with Sanjaya's introduction and categorized technology stack" />
 </p>
 
 </div>
