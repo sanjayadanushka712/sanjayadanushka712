@@ -1,7 +1,9 @@
 <div align="center">
 
-<h1><code>sanjaya@github ~ $ whoami</code></h1>
+<h1><code>sanjaya-danushka@github ~ $ whoami</code></h1>
+<p><strong>Sanjaya-Danushka</strong></p>
 <p><strong>Software Engineer · DevOps · Linux enthusiast</strong></p>
+<p><strong>We don’t build toys. We build for the real world. Period.</strong></p>
 <p>Building useful Linux tools and dependable automation through open source.</p>
 
 <p>
@@ -26,5 +28,6 @@
 <p align="center">
   <a href="https://github.com/sanjayadanushka712"><img src="https://img.shields.io/badge/GitHub-15181D?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
   <a href="https://www.linkedin.com/in/sanjaya-danushka-4484292a0"><img src="https://img.shields.io/badge/LinkedIn-15181D?style=for-the-badge&logo=linkedin&logoColor=56c8f5" alt="LinkedIn profile" /></a>
+  <a href="https://www.youtube.com/@sanjaya-danushka"><img src="https://img.shields.io/badge/YouTube-15181D?style=for-the-badge&logo=youtube&logoColor=red" alt="YouTube channel" /></a>
   <a href="mailto:dsanjaya712@gmail.com"><img src="https://img.shields.io/badge/Email-15181D?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Sanjaya" /></a>
 </p>
