@@ -1,7 +1,6 @@
 <div align="center">
 
 <h1><code>sanjaya-danushka@github ~ $ whoami</code></h1>
-<p><strong>Sanjaya-Danushka</strong></p>
 <p><strong>Software Engineer · DevOps · Linux enthusiast</strong></p>
 <p><strong>We don’t build toys. We build for the real world. Period.</strong></p>
 <p>Building useful Linux tools and dependable automation through open source.</p>
@@ -24,6 +23,8 @@
 `Bash` · `Go` · `Java` · `TypeScript` · `Python` · `PyQt` · `Docker` · `Kubernetes` · `Jenkins` · `Linux` · `PostgreSQL` · `MongoDB`
 
 ## Connect
+
+<p align="center"><strong>Sanjaya-Danushka</strong></p>
 
 <p align="center">
   <a href="https://github.com/sanjayadanushka712"><img src="https://img.shields.io/badge/GitHub-15181D?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
