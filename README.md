@@ -32,7 +32,7 @@
 <div align="center">
   <a href="https://github.com/sanjayadanushka712"><img src="https://img.shields.io/badge/github-15181D?style=flat-square&logo=github&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/sanjaya-danushka-4484292a0"><img src="https://img.shields.io/badge/linkedin-15181D?style=flat-square&logo=linkedin&logoColor=56c8f5" /></a>
-  <a href="https://www.youtube.com/@sanjaya-danushka"><img src="https://img.shields.io/badge/youtube-15181D?style=flat-square&logo=youtube&logoColor=red" /></a>
+  <!-- <a href="https://www.youtube.com/@sanjaya-danushka"><img src="https://img.shields.io/badge/youtube-15181D?style=flat-square&logo=youtube&logoColor=red" /></a> -->
   <a href="mailto:dsanjaya712@gmail.com"><img src="https://img.shields.io/badge/mail-15181D?style=flat-square&logo=gmail&logoColor=white" /></a>
 </div>
 
