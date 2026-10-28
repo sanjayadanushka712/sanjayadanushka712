@@ -7,7 +7,7 @@
 
 <p>
   <img src="./sanjaya-video-terminal.gif" width="400" height="440" alt="Animated ASCII portrait of Sanjaya Danushka in an Arch Linux terminal" />
-  <img src="./profile-card-matched.svg" width="400" height="440" alt="Terminal profile card with Sanjaya's introduction and categorized technology stack" />
+  <img src="./profile-card-clean.svg" width="400" height="440" alt="Minimal terminal profile card" />
 </p>
 
 </div>

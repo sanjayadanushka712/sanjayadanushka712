@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="880" viewBox="0 0 840 880" role="img" aria-labelledby="title desc">
+  <title id="title">Sanjaya Danushka — profile</title>
+  <desc id="desc">Minimal terminal profile card</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b2028"/><stop offset="1" stop-color="#15181D"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#56c8f5"/><stop offset="1" stop-color="#a6e3a1"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="838" height="878" rx="24" fill="url(#bg)" stroke="#343b46" stroke-width="2"/>
+  <path d="M1 70h838" stroke="#343b46"/>
+  <circle cx="32" cy="35" r="8" fill="#f38ba8"/><circle cx="60" cy="35" r="8" fill="#f9e2af"/><circle cx="88" cy="35" r="8" fill="#a6e3a1"/>
+  <text x="420" y="41" text-anchor="middle" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">sanjaya@archlinux ~ $ ./profile.sh</text>
+
+  <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
+    <text x="54" y="122" fill="#a6e3a1" font-size="20">$ whoami</text>
+    <text x="54" y="174" fill="#f2f4f8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="36" font-weight="700">Sanjaya Danushka</text>
+    <text x="56" y="211" fill="#8bd5ca" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Software Engineer <tspan fill="#657080">/</tspan> DevOps</text>
+  </g>
+  <g opacity=".2" transform="translate(675 116)">
+    <path d="M0 70 41 -12 82 70H59L41 34 23 70Z" fill="#56c8f5"/>
+    <path d="M41 53 32 70h18Z" fill="#15181D"/>
+  </g>
+
+  <path d="M54 247h732" stroke="#343b46"/>
+  <text x="54" y="288" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="20">$ cat about.txt</text>
+  <text x="54" y="328" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Focused on Linux, automation, and dependable delivery.</text>
+  <text x="54" y="359" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Building useful Linux tools through open source.</text>
+
+  <path d="M54 395h732" stroke="#343b46"/>
+  <text x="54" y="437" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="20">$ echo $MOTTO</text>
+  <text x="54" y="480" fill="#f2f4f8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">"We don’t build toys. We build for the real world."</text>
+
+  <rect x="54" y="870" width="732" height="3" rx="1.5" fill="url(#accent)"/>
+</svg>
