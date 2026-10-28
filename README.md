@@ -7,42 +7,32 @@
 
 <p>
   <img src="./sanjaya-video-terminal.gif" width="400" height="440" alt="Animated ASCII portrait of Sanjaya Danushka in an Arch Linux terminal" />
-  <img src="./profile-card-matched.svg" width="400" height="440" alt="Terminal profile card with Sanjaya's introduction and categorized technology stack" />
+  <span>
+    ![Bash](https://img.shields.io/badge/Bash-15181D?style=flat-square&logo=gnubash&logoColor=4EAA25)
+    ![Go](https://img.shields.io/badge/Go-15181D?style=flat-square&logo=go&logoColor=00ADD8)
+    ![Java](https://img.shields.io/badge/Java-15181D?style=flat-square&logo=openjdk&logoColor=ED8B00)
+    ![TypeScript](https://img.shields.io/badge/TypeScript-15181D?style=flat-square&logo=typescript&logoColor=3178C6)
+    ![Python](https://img.shields.io/badge/Python-15181D?style=flat-square&logo=python&logoColor=FFD43B)
+    ![PyQt](https://img.shields.io/badge/PyQt-15181D?style=flat-square&logo=qt&logoColor=41CD52)
+    <br>
+    ![Linux](https://img.shields.io/badge/Linux-15181D?style=flat-square&logo=linux&logoColor=FCC624)
+    ![Docker](https://img.shields.io/badge/Docker-15181D?style=flat-square&logo=docker&logoColor=2496ED)
+    ![Kubernetes](https://img.shields.io/badge/Kubernetes-15181D?style=flat-square&logo=kubernetes&logoColor=326CE5)
+    ![Jenkins](https://img.shields.io/badge/Jenkins-15181D?style=flat-square&logo=jenkins&logoColor=D24939)
+    ![Git](https://img.shields.io/badge/Git-15181D?style=flat-square&logo=git&logoColor=F05032)
+    ![Nginx](https://img.shields.io/badge/Nginx-15181D?style=flat-square&logo=nginx&logoColor=009639)
+    <br>
+    ![Prometheus](https://img.shields.io/badge/Prometheus-15181D?style=flat-square&logo=prometheus&logoColor=E6522C)
+    ![Grafana](https://img.shields.io/badge/Grafana-15181D?style=flat-square&logo=grafana&logoColor=F46800)
+    <br>
+    ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15181D?style=flat-square&logo=postgresql&logoColor=4169E1)
+    ![MongoDB](https://img.shields.io/badge/MongoDB-15181D?style=flat-square&logo=mongodb&logoColor=47A248)
+  </span>
 </p>
 
 </div>
 
 <img src="./divider.svg" width="100%" />
-
-## <code>$ cat ~/.config/skills.list</code>
-
-<div align="center">
-
-**Languages & Scripting:**  
-![Bash](https://img.shields.io/badge/Bash-15181D?style=flat-square&logo=gnubash&logoColor=4EAA25)
-![Go](https://img.shields.io/badge/Go-15181D?style=flat-square&logo=go&logoColor=00ADD8)
-![Java](https://img.shields.io/badge/Java-15181D?style=flat-square&logo=openjdk&logoColor=ED8B00)
-![TypeScript](https://img.shields.io/badge/TypeScript-15181D?style=flat-square&logo=typescript&logoColor=3178C6)
-![Python](https://img.shields.io/badge/Python-15181D?style=flat-square&logo=python&logoColor=FFD43B)
-![PyQt](https://img.shields.io/badge/PyQt-15181D?style=flat-square&logo=qt&logoColor=41CD52)
-
-**DevOps & Infra:**  
-![Linux](https://img.shields.io/badge/Linux-15181D?style=flat-square&logo=linux&logoColor=FCC624)
-![Docker](https://img.shields.io/badge/Docker-15181D?style=flat-square&logo=docker&logoColor=2496ED)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-15181D?style=flat-square&logo=kubernetes&logoColor=326CE5)
-![Jenkins](https://img.shields.io/badge/Jenkins-15181D?style=flat-square&logo=jenkins&logoColor=D24939)
-![Git](https://img.shields.io/badge/Git-15181D?style=flat-square&logo=git&logoColor=F05032)
-![Nginx](https://img.shields.io/badge/Nginx-15181D?style=flat-square&logo=nginx&logoColor=009639)
-
-**Monitoring & Observability:**  
-![Prometheus](https://img.shields.io/badge/Prometheus-15181D?style=flat-square&logo=prometheus&logoColor=E6522C)
-![Grafana](https://img.shields.io/badge/Grafana-15181D?style=flat-square&logo=grafana&logoColor=F46800)
-
-**Databases:**  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15181D?style=flat-square&logo=postgresql&logoColor=4169E1)
-![MongoDB](https://img.shields.io/badge/MongoDB-15181D?style=flat-square&logo=mongodb&logoColor=47A248)
-
-</div>
 
 ## <code>$ git log --oneline --graph</code>
 
