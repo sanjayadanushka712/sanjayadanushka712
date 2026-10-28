@@ -13,7 +13,7 @@
   <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
     <text x="54" y="122" fill="#a6e3a1" font-size="20">$ whoami</text>
     <text x="54" y="174" fill="#f2f4f8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="36" font-weight="700">Sanjaya Danushka</text>
-    <text x="56" y="211" fill="#8bd5ca" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Software Engineer <tspan fill="#657080">/</tspan> DevOps</text>
+    <text x="56" y="211" fill="#8bd5ca" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Software Engineer <tspan fill="#657080">/</tspan> DevOps <tspan fill="#657080">/</tspan> Linux Enthusiast</text>
   </g>
   <g opacity=".2" transform="translate(675 116)">
     <path d="M0 70 41 -12 82 70H59L41 34 23 70Z" fill="#56c8f5"/>
@@ -22,12 +22,14 @@
 
   <path d="M54 247h732" stroke="#343b46"/>
   <text x="54" y="288" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="20">$ cat about.txt</text>
-  <text x="54" y="328" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Focused on Linux, automation, and dependable delivery.</text>
-  <text x="54" y="359" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Building useful Linux tools through open source.</text>
+  <text x="54" y="328" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">- Linux-first problem solver focused on minimal, efficient workflows.</text>
+  <text x="54" y="359" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">- Building practical CLI tools, automation &amp; reliable DevOps pipelines.</text>
+  <text x="54" y="390" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">- Passionate about open source, containerization &amp; self-hosting.</text>
+  <text x="54" y="421" fill="#cdd6f4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">- Always learning, breaking &amp; rebuilding to understand how things work.</text>
 
-  <path d="M54 395h732" stroke="#343b46"/>
-  <text x="54" y="437" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="20">$ echo $MOTTO</text>
-  <text x="54" y="480" fill="#f2f4f8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">"We don’t build toys. We build for the real world."</text>
+  <path d="M54 457h732" stroke="#343b46"/>
+  <text x="54" y="498" fill="#a6e3a1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="20">$ find . -name "*.project" | wc -l</text>
+  <text x="54" y="540" fill="#f2f4f8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">Always shipping something useful.</text>
 
   <rect x="54" y="870" width="732" height="3" rx="1.5" fill="url(#accent)"/>
 </svg>
