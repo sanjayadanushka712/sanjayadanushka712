@@ -36,6 +36,43 @@
   <a href="mailto:dsanjaya712@gmail.com"><img src="https://img.shields.io/badge/mail-15181D?style=flat-square&logo=gmail&logoColor=white" /></a>
 </div>
 
+## <code>$ ls -la ~/github-profiles/</code>
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="left">
+      <h3><code>01. professional/</code></h3>
+      <code>Purpose: Professional Engineering</code><br><br>
+      <code>Focus: Software Engineering</code><br>
+      <code>Focus: DevOps & Cloud</code><br>
+      <code>Focus: Open Source</code><br><br>
+      <a href="https://github.com/sanjayadanushka712">
+        <img src="https://img.shields.io/badge/OPEN_WORK_PROFILE-15181D?style=flat-square&logo=github&logoColor=56c8f5" />
+      </a>
+      <br>
+      <code>github.com/sanjayadanushka712</code>
+    </td>
+    <td align="left">
+      <h3><code>02. personal/</code></h3>
+      <code>Purpose: Personal & Hobby Projects</code><br><br>
+      <code>Focus: Side Projects</code><br>
+      <code>Focus: Experimentation</code><br>
+      <code>Focus: Technology Exploration</code><br><br>
+      <a href="https://github.com/Sanjaya-Danushka">
+        <img src="https://img.shields.io/badge/OPEN_HOBBY_PROFILE-15181D?style=flat-square&logo=github&logoColor=56c8f5" />
+      </a>
+      <br>
+      <code>github.com/Sanjaya-Danushka</code>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<code>$ echo "Two spaces. One passion for building."</code>
+
 <div align="center">
   <br>
   <code>echo "We don’t build toys. We build for the real world. — Sanjaya Danushka"</code>
